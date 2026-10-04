@@ -7112,7 +7112,7 @@ input.sw:checked{border:0;background:var(--ink)}
           muted: !!ls.muted,
           solo: !!ls.solo,
           seed: ls.seed ?? L.seed,
-          count: ls.count ?? 220,
+          count: +ls.count > 0 ? +ls.count : 220,
           opacity: clamp(ls.opacity ?? ls.w ?? 1, 0, 1),
           blend: ls.blend || 'source-over'
         });
