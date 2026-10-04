@@ -10105,7 +10105,8 @@ input.sw:checked{border:0;background:var(--ink)}
   function frame() {
     requestAnimationFrame(frame);
     const t = nowT();
-    const dt = Math.min(.05, last ? t - last : 1 / 60);
+    const rawDt = last ? t - last : 1 / 60;
+    const dt = Math.min(.05, rawDt);
     last = t;
     const MSPEED = motionSpeed() * jogTick(dt), MEASE = motionEase();
     let fd, live = false;
@@ -10115,7 +10116,7 @@ input.sw:checked{border:0;background:var(--ink)}
       fd = freq;
       live = true;
     } else fd = silent;
-    const f = core.process(fd, fixture || clockOn ? null : time, dt, t);
+    const f = core.process(fd, fixture || clockOn ? null : time, Math.min(.25, rawDt), t);
     feelTick(dt);
     roleTick(f);
     {
