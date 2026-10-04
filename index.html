@@ -6916,7 +6916,15 @@ input.sw:checked{border:0;background:var(--ink)}
     if (camOn && state.cam2.over) drawCamL();
     gl.viewport(0, 0, glcv.width, glcv.height);
     gl.bindTexture(gl.TEXTURE_2D, glTex);
-    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, postSrc);
+    try {
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, postSrc);
+    } catch (e) {
+      glFail = true;
+      glcv.style.display = 'none';
+      cv.style.visibility = 'visible';
+      postBadge();
+      return;
+    }
     gl.uniform1i(glU.uTex, 0);
     gl.uniform2f(glU.uRes, glcv.width, glcv.height);
     gl.uniform1f(glU.uAmt, amt);
