@@ -6280,7 +6280,12 @@ input.sw:checked{border:0;background:var(--ink)}
       });
       ins.forEach(function(x) {
         if (!x.label) return;
-        pre += '<option value="dev:' + x.deviceId + '">' + x.label + '</option>';
+        var esc = function(s) {
+          return String(s).replace(/[&<>"]/g, function(c) {
+            return '&#' + c.charCodeAt(0) + ';';
+          });
+        };
+        pre += '<option value="dev:' + esc(x.deviceId) + '">' + esc(x.label) + '</option>';
       });
       if (ins.some(function(x) {
         return !!x.label;
