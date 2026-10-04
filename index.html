@@ -7446,6 +7446,7 @@ input.sw:checked{border:0;background:var(--ink)}
   } catch (_) {
     banks = [];
   }
+  if (!Array.isArray(banks)) banks = [];
   if (!banks.some(Boolean) && DEFAULT_BANKS.some(Boolean)) banks = JSON.parse(JSON.stringify(DEFAULT_BANKS));
   banks.length = 8;
   let saveMode = false;
