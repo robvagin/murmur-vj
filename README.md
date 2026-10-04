@@ -83,6 +83,7 @@ Take it if you want it.
 - [Voronoi](https://github.com/robvagin/voronoi) · points that share space as cells, inside any shape
 - [Image Shuffler](https://github.com/robvagin/image-shuffler) · your screens flying in 3D, ready to record as a video
 - [Motion Pad](https://github.com/robvagin/motion-pad) · one pad for the character of motion
+- [Pack Label](https://github.com/robvagin/pack-label) · one label per coffee lot, checked and ready for print
 
 ## License
 
