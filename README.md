@@ -71,9 +71,13 @@ Take it if you want it.
 - [Logomachine](https://github.com/robvagin/logomachine) · seeded generative marks: one seed, one pattern, always
 - [Motion Primer](https://github.com/robvagin/motion-primer) · bodies with behaviors: swarm, pack, magnet, orbit, fall, scatter
 - [Particles 3D](https://github.com/robvagin/particles-3d) · a WebGL2 cloud of up to 300,000 particles
-- [Guilloche](https://github.com/robvagin/guilloche) · guilloche line work: rosettes, weaves, tori and Chladni figures
-- [Unison](https://github.com/robvagin/unison) · metronomes on one board falling into unison
-- [Pixel Ring](https://github.com/robvagin/pixel-ring) · rings drawn in pixels
+- [Line Engine](https://github.com/robvagin/line-engine) · engraved line patterns: superformulas, rosettes, waves and Lissajous, in motion
+- [XYZ Cube](https://github.com/robvagin/xyz-cube) · your data as points in a 3D cube on axes you name
+- [Hexbin](https://github.com/robvagin/hexbin) · a point cloud counted into 3D hexagon towers
+- [Chart 3D](https://github.com/robvagin/chart-3d) · pie, bars, polar and area charts in 3D, with an entrance
+- [Sunburst](https://github.com/robvagin/sunburst) · a hierarchy as a 3D sunburst with height
+- [Voronoi](https://github.com/robvagin/voronoi) · points that share space as cells, inside any shape
+- [Image Shuffler](https://github.com/robvagin/image-shuffler) · your screens flying in 3D, ready to record as a video
 - [Motion Pad](https://github.com/robvagin/motion-pad) · one pad for the character of motion
 
 ## License
