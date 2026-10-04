@@ -6348,7 +6348,8 @@ input.sw:checked{border:0;background:var(--ink)}
     refreshCams();
   };
   function ensureCtx() {
-    if (ac) return;
+    if (ac && ac.state !== 'closed') return;
+    ctxHooked = false;
     ac = new (window.AudioContext || window.webkitAudioContext);
     analyser = ac.createAnalyser();
     analyser.fftSize = FFT;
