@@ -12,7 +12,8 @@
 <p align="center">
   <a href="https://robvagin-beep.github.io/murmur-vj/"><b>Open Murmur</b></a> ·
   <a href="#run-it-locally">Run it locally</a> ·
-  <a href="#vibe-coded-by-a-designer">How it was made</a>
+  <a href="#vibe-coded-by-a-designer">How it was made</a> ·
+  <a href="#more-tools">More tools</a>
 </p>
 
 ---
@@ -60,6 +61,18 @@ No install, no build step, no dependencies: `index.html` and `audio-core.js` are
 I'm a designer. I built Murmur for parties with AI agents: I made the decisions, Claude Code wrote the code. This is the open version of the visualizer I play my own sets with.
 
 Take it if you want it.
+
+## More tools
+
+- [Particle Dance](https://github.com/robvagin-beep/particle-dance) · particles that dance along patterns and 3D forms
+- [Orbital](https://github.com/robvagin-beep/orbital) · data as orbits, axes or a bending mesh
+- [Metaballs](https://github.com/robvagin-beep/metaballs) · soft masses that merge, split and leave holes
+- [Halftone Cloud](https://github.com/robvagin-beep/halftone-cloud) · images rebuilt as a halftone of flying shapes
+- [Logomachine](https://github.com/robvagin-beep/logomachine) · seeded generative marks: one seed, one pattern, always
+- [Motion Primer](https://github.com/robvagin-beep/motion-primer) · bodies with behaviors: swarm, pack, magnet, orbit, fall, scatter
+- [Particles 3D](https://github.com/robvagin-beep/particles-3d) · a WebGL2 cloud of up to 300,000 particles
+- [Pixel Ring](https://github.com/robvagin-beep/pixel-ring) · rings drawn in pixels
+- [Motion Pad](https://github.com/robvagin-beep/motion-pad) · one pad for the character of motion
 
 ## License
 
