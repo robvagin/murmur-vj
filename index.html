@@ -9733,6 +9733,7 @@ input.sw:checked{border:0;background:var(--ink)}
   addEventListener('keyup', e => {
     if (e.key === '[' || e.key === ']' || e.key === 'ArrowLeft' || e.key === 'ArrowRight') jogStop();
   });
+  addEventListener('blur', jogStop);
   let PIXEL_BUDGET = 34e5, renderScale = 1;
   function resize() {
     DPR = Math.min(2, devicePixelRatio || 1);
