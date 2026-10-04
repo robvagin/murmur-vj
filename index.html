@@ -10367,6 +10367,12 @@ input.sw:checked{border:0;background:var(--ink)}
             b.vx = b.vy = b.vz = 0;
           }
         }
+        if (!Number.isFinite(b.x + b.y + b.z + b.vx + b.vy + b.vz)) {
+          b.x = tx;
+          b.y = ty;
+          b.z = tz;
+          b.vx = b.vy = b.vz = 0;
+        }
         if (state.logoAvoid > .001) avoidLogo(b, dt, state.logoAvoid);
         if (tg.skip) continue;
         let dxp = b.x, dyp = b.y;
