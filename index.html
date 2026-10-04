@@ -8921,6 +8921,7 @@ input.sw:checked{border:0;background:var(--ink)}
       if (el) park.appendChild(el);
     }
     host.innerHTML = '';
+    for (const k in SCRUBS) if (/^(w|edge)_/.test(k)) delete SCRUBS[k];
     layers.forEach((L, idx) => {
       const d = document.createElement('div');
       d.className = 'lrow' + (L.id === activeId ? ' act' : '') + (L.muted ? ' mut' : '') + (L.open ? ' open' : '') + (L.id === LEAD_ID ? ' lead' : '');
