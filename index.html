@@ -852,7 +852,7 @@ input.sw:checked{border:0;background:var(--ink)}
       v = +nv;
       if (cfg.clamp) {
         v = clamp(v, cfg.min, cfg.max);
-      } else if (!typed) {
+      } else if (!typed || !cfg.allowExtend) {
         if (cfg.allowExtend) {
           if (v > max) max = v;
           if (v < min) min = v;
