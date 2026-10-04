@@ -1,0 +1,9 @@
+{"recalls":0,"heapMB":5.1,"scrubs":46,"layers":3}
+{"recalls":25,"heapMB":6.32,"scrubs":48,"layers":4}
+{"recalls":50,"heapMB":4.35,"scrubs":46,"layers":3}
+{"recalls":75,"heapMB":5.49,"scrubs":50,"layers":5}
+{"recalls":100,"heapMB":6.27,"scrubs":48,"layers":4}
+{"recalls":125,"heapMB":5.22,"scrubs":46,"layers":3}
+{"recalls":150,"heapMB":6.06,"scrubs":50,"layers":5}
+hoverRaf {"rafPerFrameBefore":2,"rafPerFrameHovering":2,"rafPerFrameAfterLeaving":2}
+jogBlur {"jogMulIdle":1,"jogMulAfterBlurWithoutKeyup":1}

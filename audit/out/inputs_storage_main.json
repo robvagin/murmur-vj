@@ -1,0 +1,42 @@
+{
+  "storage": [
+    {
+      "name": "banks-stored-as-object",
+      "booted": false,
+      "error": "TimeoutError: page.waitForFunction: Timeout 30000ms exceeded.",
+      "pageErrors": [
+        "pageerror: TypeError: banks.some is not a function\n    at http://127.0.0.1:8991/index.html:7441:14\n    at http://127.0.0.1:8991/index.html:10900:3"
+      ]
+    },
+    {
+      "name": "quota-full-then-save",
+      "threw": null,
+      "frames": 9,
+      "ink": 207,
+      "tainted": false,
+      "nan": 0,
+      "bodies": 520,
+      "layers": 1,
+      "status": "slot 1 held in memory — too big for storage, export it",
+      "xss": null,
+      "errors": []
+    },
+    {
+      "name": "preflight-when-full",
+      "verdict": "READY"
+    },
+    {
+      "name": "restore-old-format-session",
+      "threw": null,
+      "frames": 19,
+      "ink": 244,
+      "tainted": false,
+      "nan": 0,
+      "bodies": 1040,
+      "layers": 2,
+      "status": "last session restored",
+      "xss": null,
+      "errors": []
+    }
+  ]
+}

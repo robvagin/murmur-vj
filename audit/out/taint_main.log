@@ -1,0 +1,4 @@
+post on       {"gl":"block","cv":"hidden","frames":23,"post":"gl"} screen 53f8448d14 7496d4569a
+svg dropped  {"gl":"block","cv":"hidden","frames":49,"post":"gl"} -> {"gl":"block","cv":"hidden","frames":49,"post":"gl"} screen 05912f59b9 05912f59b9 FROZEN
+errors 130 pageerror: SecurityError: Failed to execute 'texImage2D' on 'WebGLRenderingContext': Tainted canvases may not be loaded.
+    at runPost (http://127.0.0.1:9081/i

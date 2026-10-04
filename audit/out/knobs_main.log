@@ -1,0 +1,16 @@
+baseline {"frames":12,"ms":932,"ink":203,"nan":0,"bodies":520}
+scrubs 72
+ISSUE {"label":"Pulse burst opacity","tag":"min","v":0,"frames":7,"ms":708,"ink":0,"nan":0,"bodies":520,"newErrors":[]}
+ISSUE {"label":"Pulse burst opacity","tag":"below","v":-10,"frames":12,"ms":715,"ink":0,"nan":0,"bodies":520,"newErrors":[]}
+ISSUE {"label":"Pulse burst lava · viscosity","tag":"below","v":-2.25,"frames":17,"ms":704,"ink":0,"nan":520,"bodies":520,"newErrors":[]}
+ISSUE {"label":"Background lightness","tag":"above","v":4.4,"frames":1,"ms":717,"ink":250,"nan":0,"bodies":520,"newErrors":[]}
+ISSUE {"label":"Aberration angle","tag":"min","v":0,"frames":1,"ms":705,"ink":235,"nan":0,"bodies":520,"newErrors":[]}
+COMBO ISSUE {"round":7,"set":[["Pulse burst lava · churn rate",0.41],["depth",0.642],["Scene smoothness",0.172],["depth",-0.956],["Pulse burst picture radius",5.465],["Tilt",0.825],["Scene smoothness",1.931],["Pulse burst angle snap",22.319]],"frames":1,"ms":735,"ink":235,"nan":0,"bodies":520,"newErrors":[]}
+COMBO ISSUE {"round":14,"set":[["mirror spin",0.041],["mirror turn",0.893],["Echo zoom",1.013],["orbit spin",-0.075],["mirror spin",-0.985],["depth",-0.899],["Aberration angle",39.817],["BPM",143.35]],"frames":1,"ms":717,"ink":198,"nan":0,"bodies":1077,"newErrors":[]}
+COMBO ISSUE {"round":16,"set":[["mirror turn",-2.054],["Colour shimmer",0.147],["Auto spin",-0.129],["Pulse burst wobble · rate",0.606],["Pulse burst float · lava",0.183],["orbit spin",-0.427],["Pulse burst breath · rate",2.232],["Echo hue drift",10.367]],"frames":1,"ms":781,"ink":231,"nan":0,"bodies":520,"newErrors":[]}
+COMBO ISSUE {"round":21,"set":[["Frame hue",-28.863],["Zoom",1.304],["Chromatic aberration",0.782],["depth",0.233],["Perspective",0.695],["depth",0.711],["Arrival",0.55],["Tilt",-0.925]],"frames":0,"ms":720,"ink":222,"nan":0,"bodies":520,"newErrors":[]}
+COMBO ISSUE {"round":24,"set":[["copy scale",0.576],["Pulse burst breath · depth",2.145],["Speed",1.008],["Frame hue",-173.761],["circle · bass",0.426],["Pulse burst lava · viscosity",0.944],["Background lightness",0.078],["Frame hue",80.555]],"frames":1,"ms":718,"ink":217,"nan":0,"bodies":520,"newErrors":[]}
+COMBO ISSUE {"round":37,"set":[["Echo hue drift",5.027],["Sound drive",0.506],["Background lightness",0.051],["Pulse burst breath · rate",1.481],["mirror turn",-3.006],["Echo decay",0.987],["Pulse burst breath · rate",1.19],["triangle · highs",0.674]],"frames":0,"ms":715,"ink":239,"nan":0,"bodies":520,"newErrors":[]}
+done: scrubs 72 issues 11 errors 0
+
+[exited with code 0]

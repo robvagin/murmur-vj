@@ -1,0 +1,4748 @@
+{
+  "baseline": {
+    "frames": 19,
+    "ms": 923,
+    "ink": 218,
+    "nan": 0,
+    "bodies": 520
+  },
+  "scrubs": 72,
+  "issues": [
+    {
+      "label": "Pulse burst opacity",
+      "tag": "min",
+      "v": 0,
+      "frames": 8,
+      "ms": 704,
+      "ink": 0,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity",
+      "tag": "below",
+      "v": -10,
+      "frames": 9,
+      "ms": 703,
+      "ink": 0,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 30,
+      "set": [
+        [
+          "Scene smoothness",
+          1.729
+        ],
+        [
+          "copy fade",
+          0.381
+        ],
+        [
+          "mirror spin",
+          -0.162
+        ],
+        [
+          "Background lightness",
+          0.026
+        ],
+        [
+          "Pulse burst wobble · rate",
+          2.904
+        ],
+        [
+          "Scene smoothness",
+          2.848
+        ],
+        [
+          "depth",
+          -0.481
+        ],
+        [
+          "depth",
+          -0.736
+        ]
+      ],
+      "frames": 1,
+      "ms": 2504,
+      "ink": 176,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    }
+  ],
+  "results": [
+    {
+      "label": "Speed",
+      "tag": "min",
+      "v": 0.48,
+      "frames": 12,
+      "ms": 733,
+      "ink": 222,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Speed",
+      "tag": "max",
+      "v": 1.65,
+      "frames": 11,
+      "ms": 706,
+      "ink": 218,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Speed",
+      "tag": "above",
+      "v": 13.35,
+      "frames": 10,
+      "ms": 707,
+      "ink": 219,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Speed",
+      "tag": "below",
+      "v": -11.219999999999999,
+      "frames": 8,
+      "ms": 715,
+      "ink": 222,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Arrival",
+      "tag": "min",
+      "v": 0,
+      "frames": 10,
+      "ms": 735,
+      "ink": 223,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Arrival",
+      "tag": "max",
+      "v": 1,
+      "frames": 11,
+      "ms": 705,
+      "ink": 208,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Arrival",
+      "tag": "above",
+      "v": 11,
+      "frames": 9,
+      "ms": 716,
+      "ink": 211,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Arrival",
+      "tag": "below",
+      "v": -10,
+      "frames": 11,
+      "ms": 705,
+      "ink": 223,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chaos",
+      "tag": "min",
+      "v": 0,
+      "frames": 19,
+      "ms": 709,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chaos",
+      "tag": "max",
+      "v": 1,
+      "frames": 5,
+      "ms": 719,
+      "ink": 216,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chaos",
+      "tag": "above",
+      "v": 11,
+      "frames": 9,
+      "ms": 711,
+      "ink": 215,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chaos",
+      "tag": "below",
+      "v": -10,
+      "frames": 15,
+      "ms": 715,
+      "ink": 229,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity",
+      "tag": "min",
+      "v": 0,
+      "frames": 8,
+      "ms": 704,
+      "ink": 0,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity",
+      "tag": "max",
+      "v": 1,
+      "frames": 13,
+      "ms": 703,
+      "ink": 219,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity",
+      "tag": "above",
+      "v": 11,
+      "frames": 10,
+      "ms": 715,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity",
+      "tag": "below",
+      "v": -10,
+      "frames": 9,
+      "ms": 703,
+      "ink": 0,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst edge fade",
+      "tag": "min",
+      "v": 0,
+      "frames": 12,
+      "ms": 714,
+      "ink": 223,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst edge fade",
+      "tag": "max",
+      "v": 1,
+      "frames": 11,
+      "ms": 722,
+      "ink": 188,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst edge fade",
+      "tag": "above",
+      "v": 11,
+      "frames": 10,
+      "ms": 714,
+      "ink": 163,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst edge fade",
+      "tag": "below",
+      "v": -10,
+      "frames": 11,
+      "ms": 713,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size · one body",
+      "tag": "min",
+      "v": 4,
+      "frames": 13,
+      "ms": 709,
+      "ink": 113,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size · one body",
+      "tag": "max",
+      "v": 96,
+      "frames": 9,
+      "ms": 704,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size · one body",
+      "tag": "above",
+      "v": 1016,
+      "frames": 3,
+      "ms": 1132,
+      "ink": 256,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size · one body",
+      "tag": "below",
+      "v": -916,
+      "frames": 14,
+      "ms": 705,
+      "ink": 96,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size range",
+      "tag": "min",
+      "v": 0,
+      "frames": 19,
+      "ms": 710,
+      "ink": 183,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size range",
+      "tag": "max",
+      "v": 1,
+      "frames": 20,
+      "ms": 736,
+      "ink": 208,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size range",
+      "tag": "above",
+      "v": 11,
+      "frames": 18,
+      "ms": 703,
+      "ink": 216,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst size range",
+      "tag": "below",
+      "v": -10,
+      "frames": 17,
+      "ms": 715,
+      "ink": 183,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst body tilt range",
+      "tag": "min",
+      "v": 0,
+      "frames": 13,
+      "ms": 724,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst body tilt range",
+      "tag": "max",
+      "v": 1,
+      "frames": 16,
+      "ms": 708,
+      "ink": 208,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst body tilt range",
+      "tag": "above",
+      "v": 11,
+      "frames": 14,
+      "ms": 704,
+      "ink": 206,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst body tilt range",
+      "tag": "below",
+      "v": -10,
+      "frames": 12,
+      "ms": 779,
+      "ink": 217,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity · body",
+      "tag": "min",
+      "v": 0,
+      "frames": 19,
+      "ms": 707,
+      "ink": 198,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity · body",
+      "tag": "max",
+      "v": 1,
+      "frames": 17,
+      "ms": 713,
+      "ink": 205,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity · body",
+      "tag": "above",
+      "v": 11,
+      "frames": 14,
+      "ms": 706,
+      "ink": 222,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst opacity · body",
+      "tag": "below",
+      "v": -10,
+      "frames": 10,
+      "ms": 709,
+      "ink": 209,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst density · bodies",
+      "tag": "min",
+      "v": 20,
+      "frames": 17,
+      "ms": 703,
+      "ink": 21,
+      "nan": 0,
+      "bodies": 20,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst density · bodies",
+      "tag": "max",
+      "v": 2000,
+      "frames": 11,
+      "ms": 790,
+      "ink": 242,
+      "nan": 0,
+      "bodies": 2000,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst density · bodies",
+      "tag": "above",
+      "v": 21800,
+      "frames": 2,
+      "ms": 7584,
+      "ink": 215,
+      "nan": 0,
+      "bodies": 21800,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst density · bodies",
+      "tag": "below",
+      "v": -19780,
+      "frames": 29,
+      "ms": 704,
+      "ink": 1,
+      "nan": 0,
+      "bodies": 1,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst scale · frame",
+      "tag": "min",
+      "v": 0.2,
+      "frames": 15,
+      "ms": 721,
+      "ink": 8,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst scale · frame",
+      "tag": "max",
+      "v": 2,
+      "frames": 11,
+      "ms": 711,
+      "ink": 195,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst scale · frame",
+      "tag": "above",
+      "v": 20,
+      "frames": 17,
+      "ms": 710,
+      "ink": 100,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst scale · frame",
+      "tag": "below",
+      "v": -17.8,
+      "frames": 15,
+      "ms": 706,
+      "ink": 133,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst spacing · air",
+      "tag": "min",
+      "v": 0.3,
+      "frames": 8,
+      "ms": 721,
+      "ink": 111,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst spacing · air",
+      "tag": "max",
+      "v": 2.5,
+      "frames": 14,
+      "ms": 709,
+      "ink": 145,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst spacing · air",
+      "tag": "above",
+      "v": 24.5,
+      "frames": 13,
+      "ms": 706,
+      "ink": 218,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst spacing · air",
+      "tag": "below",
+      "v": -21.7,
+      "frames": 16,
+      "ms": 719,
+      "ink": 192,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst float · lava",
+      "tag": "min",
+      "v": 0,
+      "frames": 11,
+      "ms": 719,
+      "ink": 222,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst float · lava",
+      "tag": "max",
+      "v": 0.9,
+      "frames": 12,
+      "ms": 704,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst float · lava",
+      "tag": "above",
+      "v": 9.9,
+      "frames": 12,
+      "ms": 704,
+      "ink": 192,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst float · lava",
+      "tag": "below",
+      "v": -9,
+      "frames": 14,
+      "ms": 704,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst avoid each other",
+      "tag": "min",
+      "v": 0,
+      "frames": 16,
+      "ms": 718,
+      "ink": 203,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst avoid each other",
+      "tag": "max",
+      "v": 0.1,
+      "frames": 12,
+      "ms": 718,
+      "ink": 197,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst avoid each other",
+      "tag": "above",
+      "v": 1.1,
+      "frames": 8,
+      "ms": 704,
+      "ink": 209,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst avoid each other",
+      "tag": "below",
+      "v": -1,
+      "frames": 15,
+      "ms": 704,
+      "ink": 201,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst hold formation",
+      "tag": "min",
+      "v": 0,
+      "frames": 18,
+      "ms": 704,
+      "ink": 187,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst hold formation",
+      "tag": "max",
+      "v": 3,
+      "frames": 14,
+      "ms": 705,
+      "ink": 213,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst hold formation",
+      "tag": "above",
+      "v": 33,
+      "frames": 13,
+      "ms": 717,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst hold formation",
+      "tag": "below",
+      "v": -30,
+      "frames": 11,
+      "ms": 704,
+      "ink": 193,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · width",
+      "tag": "min",
+      "v": 0,
+      "frames": 17,
+      "ms": 712,
+      "ink": 12,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · width",
+      "tag": "max",
+      "v": 3,
+      "frames": 20,
+      "ms": 712,
+      "ink": 175,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · width",
+      "tag": "above",
+      "v": 33,
+      "frames": 19,
+      "ms": 703,
+      "ink": 79,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · width",
+      "tag": "below",
+      "v": -30,
+      "frames": 21,
+      "ms": 704,
+      "ink": 120,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · tempo",
+      "tag": "min",
+      "v": 0,
+      "frames": 14,
+      "ms": 704,
+      "ink": 141,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · tempo",
+      "tag": "max",
+      "v": 2,
+      "frames": 16,
+      "ms": 703,
+      "ink": 108,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · tempo",
+      "tag": "above",
+      "v": 22,
+      "frames": 18,
+      "ms": 704,
+      "ink": 223,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst figure · tempo",
+      "tag": "below",
+      "v": -20,
+      "frames": 8,
+      "ms": 704,
+      "ink": 218,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · depth",
+      "tag": "min",
+      "v": 0,
+      "frames": 15,
+      "ms": 731,
+      "ink": 205,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · depth",
+      "tag": "max",
+      "v": 3,
+      "frames": 21,
+      "ms": 726,
+      "ink": 162,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · depth",
+      "tag": "above",
+      "v": 33,
+      "frames": 17,
+      "ms": 703,
+      "ink": 26,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · depth",
+      "tag": "below",
+      "v": -30,
+      "frames": 17,
+      "ms": 711,
+      "ink": 116,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · rate",
+      "tag": "min",
+      "v": 0,
+      "frames": 10,
+      "ms": 703,
+      "ink": 145,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · rate",
+      "tag": "max",
+      "v": 2.5,
+      "frames": 20,
+      "ms": 705,
+      "ink": 199,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · rate",
+      "tag": "above",
+      "v": 27.5,
+      "frames": 13,
+      "ms": 704,
+      "ink": 196,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst breath · rate",
+      "tag": "below",
+      "v": -25,
+      "frames": 15,
+      "ms": 737,
+      "ink": 225,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst tilt · base °",
+      "tag": "min",
+      "v": -180,
+      "frames": 15,
+      "ms": 704,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst tilt · base °",
+      "tag": "max",
+      "v": 180,
+      "frames": 13,
+      "ms": 712,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst tilt · base °",
+      "tag": "above",
+      "v": 3780,
+      "frames": 17,
+      "ms": 720,
+      "ink": 200,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst tilt · base °",
+      "tag": "below",
+      "v": -3780,
+      "frames": 16,
+      "ms": 703,
+      "ink": 203,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · comic",
+      "tag": "min",
+      "v": 0,
+      "frames": 17,
+      "ms": 718,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · comic",
+      "tag": "max",
+      "v": 1,
+      "frames": 17,
+      "ms": 710,
+      "ink": 206,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · comic",
+      "tag": "above",
+      "v": 11,
+      "frames": 17,
+      "ms": 720,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · comic",
+      "tag": "below",
+      "v": -10,
+      "frames": 13,
+      "ms": 705,
+      "ink": 207,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · rate",
+      "tag": "min",
+      "v": 0.2,
+      "frames": 14,
+      "ms": 723,
+      "ink": 208,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · rate",
+      "tag": "max",
+      "v": 6,
+      "frames": 14,
+      "ms": 706,
+      "ink": 220,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · rate",
+      "tag": "above",
+      "v": 64,
+      "frames": 13,
+      "ms": 709,
+      "ink": 223,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst wobble · rate",
+      "tag": "below",
+      "v": -57.8,
+      "frames": 10,
+      "ms": 730,
+      "ink": 209,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst angle snap",
+      "tag": "min",
+      "v": 0,
+      "frames": 7,
+      "ms": 715,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst angle snap",
+      "tag": "max",
+      "v": 24,
+      "frames": 15,
+      "ms": 724,
+      "ink": 236,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst angle snap",
+      "tag": "above",
+      "v": 264,
+      "frames": 17,
+      "ms": 721,
+      "ink": 223,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst angle snap",
+      "tag": "below",
+      "v": -240,
+      "frames": 17,
+      "ms": 705,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst picture radius",
+      "tag": "min",
+      "v": 0,
+      "frames": 14,
+      "ms": 704,
+      "ink": 213,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst picture radius",
+      "tag": "max",
+      "v": 50,
+      "frames": 13,
+      "ms": 705,
+      "ink": 220,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst picture radius",
+      "tag": "above",
+      "v": 550,
+      "frames": 14,
+      "ms": 716,
+      "ink": 222,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst picture radius",
+      "tag": "below",
+      "v": -500,
+      "frames": 11,
+      "ms": 725,
+      "ink": 213,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst motion blur",
+      "tag": "min",
+      "v": 0,
+      "frames": 11,
+      "ms": 706,
+      "ink": 210,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst motion blur",
+      "tag": "max",
+      "v": 4,
+      "frames": 10,
+      "ms": 722,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst motion blur",
+      "tag": "above",
+      "v": 44,
+      "frames": 12,
+      "ms": 706,
+      "ink": 224,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst motion blur",
+      "tag": "below",
+      "v": -40,
+      "frames": 11,
+      "ms": 710,
+      "ink": 214,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · cell size",
+      "tag": "min",
+      "v": 0.15,
+      "frames": 15,
+      "ms": 723,
+      "ink": 202,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · cell size",
+      "tag": "max",
+      "v": 3,
+      "frames": 14,
+      "ms": 705,
+      "ink": 218,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · cell size",
+      "tag": "above",
+      "v": 31.5,
+      "frames": 13,
+      "ms": 707,
+      "ink": 216,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · cell size",
+      "tag": "below",
+      "v": -28.35,
+      "frames": 13,
+      "ms": 718,
+      "ink": 199,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · churn rate",
+      "tag": "min",
+      "v": 0,
+      "frames": 10,
+      "ms": 704,
+      "ink": 216,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · churn rate",
+      "tag": "max",
+      "v": 2,
+      "frames": 12,
+      "ms": 704,
+      "ink": 216,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · churn rate",
+      "tag": "above",
+      "v": 22,
+      "frames": 12,
+      "ms": 705,
+      "ink": 205,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · churn rate",
+      "tag": "below",
+      "v": -20,
+      "frames": 11,
+      "ms": 705,
+      "ink": 196,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · viscosity",
+      "tag": "min",
+      "v": 0.7,
+      "frames": 16,
+      "ms": 703,
+      "ink": 208,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · viscosity",
+      "tag": "max",
+      "v": 0.995,
+      "frames": 17,
+      "ms": 708,
+      "ink": 191,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · viscosity",
+      "tag": "above",
+      "v": 3.9450000000000003,
+      "frames": 14,
+      "ms": 716,
+      "ink": 217,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · viscosity",
+      "tag": "below",
+      "v": -2.25,
+      "frames": 15,
+      "ms": 723,
+      "ink": 215,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · lag spread",
+      "tag": "min",
+      "v": 0,
+      "frames": 12,
+      "ms": 712,
+      "ink": 197,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · lag spread",
+      "tag": "max",
+      "v": 0.6,
+      "frames": 15,
+      "ms": 704,
+      "ink": 218,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · lag spread",
+      "tag": "above",
+      "v": 6.6,
+      "frames": 14,
+      "ms": 713,
+      "ink": 225,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst lava · lag spread",
+      "tag": "below",
+      "v": -6,
+      "frames": 12,
+      "ms": 705,
+      "ink": 221,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst move together",
+      "tag": "min",
+      "v": 0,
+      "frames": 14,
+      "ms": 704,
+      "ink": 215,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst move together",
+      "tag": "max",
+      "v": 1,
+      "frames": 12,
+      "ms": 706,
+      "ink": 222,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst move together",
+      "tag": "above",
+      "v": 11,
+      "frames": 18,
+      "ms": 727,
+      "ink": 223,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst move together",
+      "tag": "below",
+      "v": -10,
+      "frames": 15,
+      "ms": 704,
+      "ink": 225,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst fall",
+      "tag": "min",
+      "v": -0.15,
+      "frames": 15,
+      "ms": 715,
+      "ink": 234,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst fall",
+      "tag": "max",
+      "v": 0.15,
+      "frames": 14,
+      "ms": 711,
+      "ink": 226,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst fall",
+      "tag": "above",
+      "v": 3.15,
+      "frames": 13,
+      "ms": 758,
+      "ink": 224,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Pulse burst fall",
+      "tag": "below",
+      "v": -3.15,
+      "frames": 13,
+      "ms": 706,
+      "ink": 228,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Perspective",
+      "tag": "min",
+      "v": 0,
+      "frames": 15,
+      "ms": 706,
+      "ink": 30,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Perspective",
+      "tag": "max",
+      "v": 1.2,
+      "frames": 14,
+      "ms": 707,
+      "ink": 219,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Perspective",
+      "tag": "above",
+      "v": 13.2,
+      "frames": 12,
+      "ms": 714,
+      "ink": 237,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Perspective",
+      "tag": "below",
+      "v": -12,
+      "frames": 10,
+      "ms": 707,
+      "ink": 229,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Zoom",
+      "tag": "min",
+      "v": 0.4,
+      "frames": 13,
+      "ms": 726,
+      "ink": 238,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Zoom",
+      "tag": "max",
+      "v": 2.4,
+      "frames": 12,
+      "ms": 704,
+      "ink": 241,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Zoom",
+      "tag": "above",
+      "v": 22.4,
+      "frames": 17,
+      "ms": 705,
+      "ink": 30,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Zoom",
+      "tag": "below",
+      "v": -19.6,
+      "frames": 14,
+      "ms": 703,
+      "ink": 2,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tilt",
+      "tag": "min",
+      "v": -1,
+      "frames": 12,
+      "ms": 721,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tilt",
+      "tag": "max",
+      "v": 1,
+      "frames": 15,
+      "ms": 711,
+      "ink": 241,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tilt",
+      "tag": "above",
+      "v": 21,
+      "frames": 15,
+      "ms": 704,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tilt",
+      "tag": "below",
+      "v": -21,
+      "frames": 13,
+      "ms": 709,
+      "ink": 244,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto spin",
+      "tag": "min",
+      "v": -0.5,
+      "frames": 15,
+      "ms": 705,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto spin",
+      "tag": "max",
+      "v": 0.5,
+      "frames": 15,
+      "ms": 713,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto spin",
+      "tag": "above",
+      "v": 10.5,
+      "frames": 10,
+      "ms": 728,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto spin",
+      "tag": "below",
+      "v": -10.5,
+      "frames": 12,
+      "ms": 706,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto tilt",
+      "tag": "min",
+      "v": 0,
+      "frames": 11,
+      "ms": 726,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto tilt",
+      "tag": "max",
+      "v": 0.5,
+      "frames": 12,
+      "ms": 711,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto tilt",
+      "tag": "above",
+      "v": 5.5,
+      "frames": 12,
+      "ms": 704,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Auto tilt",
+      "tag": "below",
+      "v": -5,
+      "frames": 18,
+      "ms": 704,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "BPM",
+      "tag": "min",
+      "v": 40,
+      "frames": 17,
+      "ms": 729,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "BPM",
+      "tag": "max",
+      "v": 220,
+      "frames": 18,
+      "ms": 704,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "BPM",
+      "tag": "above",
+      "v": 2020,
+      "frames": 16,
+      "ms": 708,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "BPM",
+      "tag": "below",
+      "v": -1760,
+      "frames": 19,
+      "ms": 705,
+      "ink": 254,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tempo trim",
+      "tag": "min",
+      "v": -6,
+      "frames": 14,
+      "ms": 704,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tempo trim",
+      "tag": "max",
+      "v": 6,
+      "frames": 16,
+      "ms": 714,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tempo trim",
+      "tag": "above",
+      "v": 126,
+      "frames": 16,
+      "ms": 854,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Tempo trim",
+      "tag": "below",
+      "v": -126,
+      "frames": 11,
+      "ms": 705,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Sound drive",
+      "tag": "min",
+      "v": 0,
+      "frames": 15,
+      "ms": 708,
+      "ink": 236,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Sound drive",
+      "tag": "max",
+      "v": 1.5,
+      "frames": 15,
+      "ms": 706,
+      "ink": 254,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Sound drive",
+      "tag": "above",
+      "v": 16.5,
+      "frames": 14,
+      "ms": 780,
+      "ink": 187,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Sound drive",
+      "tag": "below",
+      "v": -15,
+      "frames": 13,
+      "ms": 704,
+      "ink": 220,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Camera in shapes",
+      "skipped": "disabled"
+    },
+    {
+      "label": "Camera layer",
+      "skipped": "disabled"
+    },
+    {
+      "label": "Camera duotone",
+      "skipped": "disabled"
+    },
+    {
+      "label": "Camera posterize",
+      "skipped": "disabled"
+    },
+    {
+      "label": "Camera contrast",
+      "skipped": "disabled"
+    },
+    {
+      "label": "Camera gain",
+      "skipped": "disabled"
+    },
+    {
+      "label": "circle · bass",
+      "tag": "min",
+      "v": 0,
+      "frames": 11,
+      "ms": 730,
+      "ink": 228,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "circle · bass",
+      "tag": "max",
+      "v": 1,
+      "frames": 25,
+      "ms": 727,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "circle · bass",
+      "tag": "above",
+      "v": 11,
+      "frames": 30,
+      "ms": 710,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "circle · bass",
+      "tag": "below",
+      "v": -10,
+      "frames": 31,
+      "ms": 740,
+      "ink": 240,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "triangle · highs",
+      "tag": "min",
+      "v": 0,
+      "frames": 30,
+      "ms": 737,
+      "ink": 254,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "triangle · highs",
+      "tag": "max",
+      "v": 1,
+      "frames": 31,
+      "ms": 760,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "triangle · highs",
+      "tag": "above",
+      "v": 11,
+      "frames": 21,
+      "ms": 757,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "triangle · highs",
+      "tag": "below",
+      "v": -10,
+      "frames": 21,
+      "ms": 742,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "rect · mids",
+      "tag": "min",
+      "v": 0,
+      "frames": 19,
+      "ms": 746,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "rect · mids",
+      "tag": "max",
+      "v": 1,
+      "frames": 15,
+      "ms": 705,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "rect · mids",
+      "tag": "above",
+      "v": 11,
+      "frames": 18,
+      "ms": 720,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "rect · mids",
+      "tag": "below",
+      "v": -10,
+      "frames": 2,
+      "ms": 757,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "min",
+      "v": -1,
+      "frames": 3,
+      "ms": 737,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "max",
+      "v": 1,
+      "frames": 12,
+      "ms": 747,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "above",
+      "v": 21,
+      "frames": 19,
+      "ms": 717,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "below",
+      "v": -21,
+      "frames": 16,
+      "ms": 706,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "min",
+      "v": -1,
+      "frames": 15,
+      "ms": 733,
+      "ink": 244,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "max",
+      "v": 1,
+      "frames": 29,
+      "ms": 728,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "above",
+      "v": 21,
+      "frames": 26,
+      "ms": 744,
+      "ink": 253,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "below",
+      "v": -21,
+      "frames": 16,
+      "ms": 710,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "min",
+      "v": -1,
+      "frames": 15,
+      "ms": 719,
+      "ink": 241,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "max",
+      "v": 1,
+      "frames": 19,
+      "ms": 722,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "above",
+      "v": 21,
+      "frames": 16,
+      "ms": 709,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "below",
+      "v": -21,
+      "frames": 15,
+      "ms": 705,
+      "ink": 244,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "min",
+      "v": -1,
+      "frames": 14,
+      "ms": 751,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "max",
+      "v": 1,
+      "frames": 22,
+      "ms": 760,
+      "ink": 244,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "above",
+      "v": 21,
+      "frames": 14,
+      "ms": 705,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "depth",
+      "tag": "below",
+      "v": -21,
+      "frames": 16,
+      "ms": 721,
+      "ink": 242,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Background lightness",
+      "tag": "min",
+      "v": 0,
+      "frames": 3,
+      "ms": 705,
+      "ink": 241,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Background lightness",
+      "tag": "max",
+      "v": 0.4,
+      "frames": 3,
+      "ms": 707,
+      "ink": 239,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Background lightness",
+      "tag": "above",
+      "v": 4.4,
+      "frames": 40,
+      "ms": 2542,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "label": "Background lightness",
+      "tag": "below",
+      "v": -4,
+      "frames": 24,
+      "ms": 720,
+      "ink": 241,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Colour shimmer",
+      "tag": "min",
+      "v": 0,
+      "frames": 22,
+      "ms": 704,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Colour shimmer",
+      "tag": "max",
+      "v": 1,
+      "frames": 13,
+      "ms": 750,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Colour shimmer",
+      "tag": "above",
+      "v": 11,
+      "frames": 28,
+      "ms": 743,
+      "ink": 237,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Colour shimmer",
+      "tag": "below",
+      "v": -10,
+      "frames": 29,
+      "ms": 709,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo",
+      "tag": "min",
+      "v": 0,
+      "frames": 15,
+      "ms": 734,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo",
+      "tag": "max",
+      "v": 1,
+      "frames": 2,
+      "ms": 719,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo",
+      "tag": "above",
+      "v": 11,
+      "frames": 10,
+      "ms": 746,
+      "ink": 256,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo",
+      "tag": "below",
+      "v": -10,
+      "frames": 17,
+      "ms": 719,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo zoom",
+      "tag": "min",
+      "v": 0.97,
+      "frames": 15,
+      "ms": 733,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo zoom",
+      "tag": "max",
+      "v": 1.03,
+      "frames": 16,
+      "ms": 705,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo zoom",
+      "tag": "above",
+      "v": 1.6300000000000006,
+      "frames": 18,
+      "ms": 732,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo zoom",
+      "tag": "below",
+      "v": 0.36999999999999944,
+      "frames": 30,
+      "ms": 730,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo turn",
+      "tag": "min",
+      "v": -0.06,
+      "frames": 19,
+      "ms": 707,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo turn",
+      "tag": "max",
+      "v": 0.06,
+      "frames": 15,
+      "ms": 709,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo turn",
+      "tag": "above",
+      "v": 1.26,
+      "frames": 12,
+      "ms": 719,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo turn",
+      "tag": "below",
+      "v": -1.26,
+      "frames": 15,
+      "ms": 715,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo decay",
+      "tag": "min",
+      "v": 0.85,
+      "frames": 16,
+      "ms": 704,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo decay",
+      "tag": "max",
+      "v": 0.995,
+      "frames": 12,
+      "ms": 706,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo decay",
+      "tag": "above",
+      "v": 2.4450000000000003,
+      "frames": 11,
+      "ms": 705,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo decay",
+      "tag": "below",
+      "v": -0.6000000000000002,
+      "frames": 4,
+      "ms": 706,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo hue drift",
+      "tag": "min",
+      "v": 0,
+      "frames": 56,
+      "ms": 2509,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "label": "Echo hue drift",
+      "tag": "max",
+      "v": 12,
+      "frames": 20,
+      "ms": 726,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo hue drift",
+      "tag": "above",
+      "v": 132,
+      "frames": 28,
+      "ms": 736,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Echo hue drift",
+      "tag": "below",
+      "v": -120,
+      "frames": 20,
+      "ms": 750,
+      "ink": 234,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirrors",
+      "tag": "min",
+      "v": 0,
+      "frames": 15,
+      "ms": 713,
+      "ink": 239,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirrors",
+      "tag": "max",
+      "v": 16,
+      "frames": 18,
+      "ms": 733,
+      "ink": 193,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirrors",
+      "tag": "above",
+      "v": 176,
+      "frames": 2,
+      "ms": 706,
+      "ink": 193,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirrors",
+      "tag": "below",
+      "v": -160,
+      "frames": 18,
+      "ms": 732,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror turn",
+      "tag": "min",
+      "v": -3.15,
+      "frames": 14,
+      "ms": 708,
+      "ink": 241,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror turn",
+      "tag": "max",
+      "v": 3.15,
+      "frames": 16,
+      "ms": 704,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror turn",
+      "tag": "above",
+      "v": 66.15,
+      "frames": 16,
+      "ms": 706,
+      "ink": 255,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror turn",
+      "tag": "below",
+      "v": -66.15,
+      "frames": 20,
+      "ms": 764,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror spin",
+      "tag": "min",
+      "v": -1,
+      "frames": 26,
+      "ms": 715,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror spin",
+      "tag": "max",
+      "v": 1,
+      "frames": 18,
+      "ms": 752,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror spin",
+      "tag": "above",
+      "v": 21,
+      "frames": 21,
+      "ms": 708,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "mirror spin",
+      "tag": "below",
+      "v": -21,
+      "frames": 17,
+      "ms": 712,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chromatic aberration",
+      "tag": "min",
+      "v": 0,
+      "frames": 18,
+      "ms": 714,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chromatic aberration",
+      "tag": "max",
+      "v": 1,
+      "frames": 5,
+      "ms": 704,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chromatic aberration",
+      "tag": "above",
+      "v": 11,
+      "frames": 7,
+      "ms": 704,
+      "ink": 242,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Chromatic aberration",
+      "tag": "below",
+      "v": -10,
+      "frames": 14,
+      "ms": 738,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Aberration angle",
+      "tag": "min",
+      "v": 0,
+      "frames": 21,
+      "ms": 712,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Aberration angle",
+      "tag": "max",
+      "v": 360,
+      "frames": 21,
+      "ms": 711,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Aberration angle",
+      "tag": "above",
+      "v": 3960,
+      "frames": 7,
+      "ms": 709,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Aberration angle",
+      "tag": "below",
+      "v": -3600,
+      "frames": 10,
+      "ms": 706,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Frame hue",
+      "tag": "min",
+      "v": -180,
+      "frames": 3,
+      "ms": 705,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Frame hue",
+      "tag": "max",
+      "v": 180,
+      "frames": 2,
+      "ms": 708,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Frame hue",
+      "tag": "above",
+      "v": 3780,
+      "frames": 3,
+      "ms": 707,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Frame hue",
+      "tag": "below",
+      "v": -3780,
+      "frames": 4,
+      "ms": 704,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copies",
+      "tag": "min",
+      "v": 0,
+      "frames": 13,
+      "ms": 705,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copies",
+      "tag": "max",
+      "v": 8,
+      "frames": 10,
+      "ms": 797,
+      "ink": 254,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copies",
+      "tag": "above",
+      "v": 88,
+      "frames": 18,
+      "ms": 813,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copies",
+      "tag": "below",
+      "v": -80,
+      "frames": 22,
+      "ms": 716,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "ring",
+      "tag": "min",
+      "v": 0,
+      "frames": 28,
+      "ms": 757,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "ring",
+      "tag": "max",
+      "v": 0.8,
+      "frames": 26,
+      "ms": 709,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "ring",
+      "tag": "above",
+      "v": 8.8,
+      "frames": 17,
+      "ms": 705,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "ring",
+      "tag": "below",
+      "v": -8,
+      "frames": 13,
+      "ms": 705,
+      "ink": 241,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "turn step",
+      "tag": "min",
+      "v": -1.6,
+      "frames": 19,
+      "ms": 736,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "turn step",
+      "tag": "max",
+      "v": 1.6,
+      "frames": 19,
+      "ms": 893,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "turn step",
+      "tag": "above",
+      "v": 33.6,
+      "frames": 13,
+      "ms": 704,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "turn step",
+      "tag": "below",
+      "v": -33.6,
+      "frames": 12,
+      "ms": 821,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "orbit spin",
+      "tag": "min",
+      "v": -1,
+      "frames": 18,
+      "ms": 712,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "orbit spin",
+      "tag": "max",
+      "v": 1,
+      "frames": 18,
+      "ms": 772,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "orbit spin",
+      "tag": "above",
+      "v": 21,
+      "frames": 19,
+      "ms": 745,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "orbit spin",
+      "tag": "below",
+      "v": -21,
+      "frames": 16,
+      "ms": 730,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy scale",
+      "tag": "min",
+      "v": 0.5,
+      "frames": 23,
+      "ms": 755,
+      "ink": 253,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy scale",
+      "tag": "max",
+      "v": 1.15,
+      "frames": 10,
+      "ms": 704,
+      "ink": 253,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy scale",
+      "tag": "above",
+      "v": 7.649999999999999,
+      "frames": 12,
+      "ms": 754,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy scale",
+      "tag": "below",
+      "v": -5.999999999999999,
+      "frames": 14,
+      "ms": 709,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy fade",
+      "tag": "min",
+      "v": 0.2,
+      "frames": 14,
+      "ms": 708,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy fade",
+      "tag": "max",
+      "v": 1,
+      "frames": 15,
+      "ms": 708,
+      "ink": 250,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy fade",
+      "tag": "above",
+      "v": 9,
+      "frames": 14,
+      "ms": 745,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "copy fade",
+      "tag": "below",
+      "v": -7.8,
+      "frames": 15,
+      "ms": 804,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Scene smoothness",
+      "tag": "min",
+      "v": 0.15,
+      "frames": 17,
+      "ms": 716,
+      "ink": 245,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Scene smoothness",
+      "tag": "max",
+      "v": 6,
+      "frames": 15,
+      "ms": 722,
+      "ink": 251,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Scene smoothness",
+      "tag": "above",
+      "v": 64.5,
+      "frames": 14,
+      "ms": 755,
+      "ink": 249,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "label": "Scene smoothness",
+      "tag": "below",
+      "v": -58.35,
+      "frames": 14,
+      "ms": 714,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    }
+  ],
+  "combos": [
+    {
+      "round": 0,
+      "set": [
+        [
+          "Arrival",
+          0.017
+        ],
+        [
+          "Auto tilt",
+          0.317
+        ],
+        [
+          "ring",
+          0.09
+        ],
+        [
+          "Zoom",
+          1.497
+        ],
+        [
+          "circle · bass",
+          0.783
+        ],
+        [
+          "Chaos",
+          0.744
+        ],
+        [
+          "copy scale",
+          0.548
+        ],
+        [
+          "Background lightness",
+          0.184
+        ]
+      ],
+      "frames": 11,
+      "ms": 715,
+      "ink": 237,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 1,
+      "set": [
+        [
+          "Pulse burst lava · churn rate",
+          1.919
+        ],
+        [
+          "Pulse burst lava · churn rate",
+          1.906
+        ],
+        [
+          "Scene smoothness",
+          4.033
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.847
+        ],
+        [
+          "Pulse burst breath · rate",
+          1.058
+        ],
+        [
+          "depth",
+          -0.689
+        ],
+        [
+          "Pulse burst size · one body",
+          82.447
+        ],
+        [
+          "Pulse burst wobble · comic",
+          0.007
+        ]
+      ],
+      "frames": 6,
+      "ms": 740,
+      "ink": 253,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 2,
+      "set": [
+        [
+          "Pulse burst fall",
+          -0.062
+        ],
+        [
+          "Tempo trim",
+          5.547
+        ],
+        [
+          "Arrival",
+          0.78
+        ],
+        [
+          "Pulse burst tilt · base °",
+          -64.391
+        ],
+        [
+          "copy scale",
+          0.855
+        ],
+        [
+          "depth",
+          0.314
+        ],
+        [
+          "rect · mids",
+          0.161
+        ],
+        [
+          "turn step",
+          0.856
+        ]
+      ],
+      "frames": 16,
+      "ms": 737,
+      "ink": 256,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 3,
+      "set": [
+        [
+          "Pulse burst fall",
+          0.068
+        ],
+        [
+          "Pulse burst wobble · rate",
+          4.333
+        ],
+        [
+          "Sound drive",
+          1.142
+        ],
+        [
+          "Pulse burst move together",
+          0.206
+        ],
+        [
+          "Pulse burst fall",
+          0.052
+        ],
+        [
+          "Auto spin",
+          0.373
+        ],
+        [
+          "Pulse burst lava · cell size",
+          2.788
+        ],
+        [
+          "Echo",
+          0.143
+        ]
+      ],
+      "frames": 8,
+      "ms": 772,
+      "ink": 256,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 4,
+      "set": [
+        [
+          "depth",
+          -0.3
+        ],
+        [
+          "Pulse burst picture radius",
+          39.657
+        ],
+        [
+          "Echo hue drift",
+          2.113
+        ],
+        [
+          "Pulse burst body tilt range",
+          0.404
+        ],
+        [
+          "Aberration angle",
+          260.451
+        ],
+        [
+          "Auto tilt",
+          0.124
+        ],
+        [
+          "Pulse burst lava · cell size",
+          2.63
+        ],
+        [
+          "mirrors",
+          5.949
+        ]
+      ],
+      "frames": 10,
+      "ms": 812,
+      "ink": 206,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 5,
+      "set": [
+        [
+          "mirror turn",
+          1.211
+        ],
+        [
+          "Auto spin",
+          0.396
+        ],
+        [
+          "rect · mids",
+          0.92
+        ],
+        [
+          "Pulse burst lava · cell size",
+          2.382
+        ],
+        [
+          "mirror turn",
+          -2.542
+        ],
+        [
+          "triangle · highs",
+          0.611
+        ],
+        [
+          "Pulse burst body tilt range",
+          0.579
+        ],
+        [
+          "Frame hue",
+          -146.863
+        ]
+      ],
+      "frames": 9,
+      "ms": 787,
+      "ink": 233,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 6,
+      "set": [
+        [
+          "Pulse burst breath · rate",
+          1.95
+        ],
+        [
+          "Echo",
+          0.377
+        ],
+        [
+          "Pulse burst spacing · air",
+          0.921
+        ],
+        [
+          "Frame hue",
+          -38.885
+        ],
+        [
+          "Echo decay",
+          0.954
+        ],
+        [
+          "Pulse burst size · one body",
+          71.884
+        ],
+        [
+          "mirror spin",
+          0.119
+        ],
+        [
+          "Pulse burst hold formation",
+          2.71
+        ]
+      ],
+      "frames": 12,
+      "ms": 794,
+      "ink": 234,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 7,
+      "set": [
+        [
+          "Pulse burst lava · churn rate",
+          0.41
+        ],
+        [
+          "depth",
+          0.642
+        ],
+        [
+          "Scene smoothness",
+          0.172
+        ],
+        [
+          "depth",
+          -0.956
+        ],
+        [
+          "Pulse burst picture radius",
+          5.465
+        ],
+        [
+          "Tilt",
+          0.825
+        ],
+        [
+          "Scene smoothness",
+          1.931
+        ],
+        [
+          "Pulse burst angle snap",
+          22.319
+        ]
+      ],
+      "frames": 41,
+      "ms": 2575,
+      "ink": 253,
+      "nan": 0,
+      "bodies": 520,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 8,
+      "set": [
+        [
+          "copies",
+          1.479
+        ],
+        [
+          "Colour shimmer",
+          0.603
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.801
+        ],
+        [
+          "copy fade",
+          0.816
+        ],
+        [
+          "depth",
+          -0.1
+        ],
+        [
+          "Perspective",
+          0.588
+        ],
+        [
+          "Pulse burst motion blur",
+          1.419
+        ],
+        [
+          "orbit spin",
+          -0.234
+        ]
+      ],
+      "frames": 7,
+      "ms": 758,
+      "ink": 254,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 9,
+      "set": [
+        [
+          "Pulse burst body tilt range",
+          0.626
+        ],
+        [
+          "depth",
+          -0.103
+        ],
+        [
+          "Chromatic aberration",
+          0.141
+        ],
+        [
+          "Pulse burst opacity · body",
+          0.603
+        ],
+        [
+          "Tempo trim",
+          1.659
+        ],
+        [
+          "Pulse burst move together",
+          0.459
+        ],
+        [
+          "Tempo trim",
+          -1.672
+        ],
+        [
+          "rect · mids",
+          0.123
+        ]
+      ],
+      "frames": 2,
+      "ms": 709,
+      "ink": 253,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 10,
+      "set": [
+        [
+          "Pulse burst wobble · comic",
+          0.184
+        ],
+        [
+          "Sound drive",
+          0.002
+        ],
+        [
+          "Pulse burst size range",
+          0.873
+        ],
+        [
+          "Pulse burst figure · tempo",
+          1.831
+        ],
+        [
+          "Pulse burst size range",
+          0.355
+        ],
+        [
+          "BPM",
+          41.2
+        ],
+        [
+          "Pulse burst hold formation",
+          0.439
+        ],
+        [
+          "Echo turn",
+          -0.033
+        ]
+      ],
+      "frames": 5,
+      "ms": 766,
+      "ink": 252,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 11,
+      "set": [
+        [
+          "Speed",
+          0.867
+        ],
+        [
+          "Sound drive",
+          0.57
+        ],
+        [
+          "depth",
+          0.452
+        ],
+        [
+          "Pulse burst body tilt range",
+          0.097
+        ],
+        [
+          "triangle · highs",
+          0.127
+        ],
+        [
+          "Pulse burst lava · cell size",
+          0.366
+        ],
+        [
+          "Pulse burst breath · depth",
+          2.313
+        ],
+        [
+          "Pulse burst breath · depth",
+          1.579
+        ]
+      ],
+      "frames": 16,
+      "ms": 2572,
+      "ink": 248,
+      "nan": 0,
+      "bodies": 520,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 12,
+      "set": [
+        [
+          "Pulse burst wobble · rate",
+          2.591
+        ],
+        [
+          "Echo",
+          0.744
+        ],
+        [
+          "Pulse burst opacity · body",
+          0.648
+        ],
+        [
+          "Scene smoothness",
+          0.697
+        ],
+        [
+          "Pulse burst figure · width",
+          1.157
+        ],
+        [
+          "Aberration angle",
+          335.537
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.874
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.765
+        ]
+      ],
+      "frames": 2,
+      "ms": 705,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 13,
+      "set": [
+        [
+          "Pulse burst avoid each other",
+          0.071
+        ],
+        [
+          "Echo",
+          0.855
+        ],
+        [
+          "Pulse burst wobble · comic",
+          0.42
+        ],
+        [
+          "Pulse burst lava · cell size",
+          2.907
+        ],
+        [
+          "Pulse burst density · bodies",
+          1077.46
+        ],
+        [
+          "Scene smoothness",
+          4.392
+        ],
+        [
+          "Pulse burst tilt · base °",
+          -63.274
+        ],
+        [
+          "depth",
+          -0.223
+        ]
+      ],
+      "frames": 2,
+      "ms": 2507,
+      "ink": 247,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 14,
+      "set": [
+        [
+          "mirror spin",
+          0.041
+        ],
+        [
+          "mirror turn",
+          0.893
+        ],
+        [
+          "Echo zoom",
+          1.013
+        ],
+        [
+          "orbit spin",
+          -0.075
+        ],
+        [
+          "mirror spin",
+          -0.985
+        ],
+        [
+          "depth",
+          -0.899
+        ],
+        [
+          "Aberration angle",
+          39.817
+        ],
+        [
+          "BPM",
+          143.35
+        ]
+      ],
+      "frames": 10,
+      "ms": 2504,
+      "ink": 224,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 15,
+      "set": [
+        [
+          "Frame hue",
+          -114.482
+        ],
+        [
+          "circle · bass",
+          0.758
+        ],
+        [
+          "copies",
+          1.182
+        ],
+        [
+          "Pulse burst spacing · air",
+          1.545
+        ],
+        [
+          "Pulse burst fall",
+          -0.05
+        ],
+        [
+          "circle · bass",
+          0.512
+        ],
+        [
+          "depth",
+          0.151
+        ],
+        [
+          "Pulse burst tilt · base °",
+          -55.033
+        ]
+      ],
+      "frames": 10,
+      "ms": 2774,
+      "ink": 211,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 16,
+      "set": [
+        [
+          "mirror turn",
+          -2.054
+        ],
+        [
+          "Colour shimmer",
+          0.147
+        ],
+        [
+          "Auto spin",
+          -0.129
+        ],
+        [
+          "Pulse burst wobble · rate",
+          0.606
+        ],
+        [
+          "Pulse burst float · lava",
+          0.183
+        ],
+        [
+          "orbit spin",
+          -0.427
+        ],
+        [
+          "Pulse burst breath · rate",
+          2.232
+        ],
+        [
+          "Echo hue drift",
+          10.367
+        ]
+      ],
+      "frames": 13,
+      "ms": 2811,
+      "ink": 205,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 17,
+      "set": [
+        [
+          "Pulse burst wobble · comic",
+          0.16
+        ],
+        [
+          "Aberration angle",
+          219.155
+        ],
+        [
+          "turn step",
+          -1.274
+        ],
+        [
+          "Pulse burst scale · frame",
+          0.444
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.853
+        ],
+        [
+          "Pulse burst breath · rate",
+          1.706
+        ],
+        [
+          "Pulse burst angle snap",
+          20.292
+        ],
+        [
+          "Pulse burst lava · lag spread",
+          0.258
+        ]
+      ],
+      "frames": 5,
+      "ms": 853,
+      "ink": 220,
+      "nan": 0,
+      "bodies": 1077,
+      "newErrors": []
+    },
+    {
+      "round": 18,
+      "set": [
+        [
+          "Pulse burst motion blur",
+          0.222
+        ],
+        [
+          "Pulse burst fall",
+          -0.044
+        ],
+        [
+          "Pulse burst angle snap",
+          4.855
+        ],
+        [
+          "Echo decay",
+          0.974
+        ],
+        [
+          "Pulse burst spacing · air",
+          1.337
+        ],
+        [
+          "Pulse burst angle snap",
+          16.935
+        ],
+        [
+          "Pulse burst spacing · air",
+          2.259
+        ],
+        [
+          "Echo zoom",
+          0.974
+        ]
+      ],
+      "frames": 3,
+      "ms": 2505,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 19,
+      "set": [
+        [
+          "mirror turn",
+          -2.597
+        ],
+        [
+          "Perspective",
+          0.687
+        ],
+        [
+          "Pulse burst avoid each other",
+          0.074
+        ],
+        [
+          "Pulse burst move together",
+          0.811
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.875
+        ],
+        [
+          "mirrors",
+          9.938
+        ],
+        [
+          "orbit spin",
+          -0.56
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.717
+        ]
+      ],
+      "frames": 3,
+      "ms": 1051,
+      "ink": 211,
+      "nan": 0,
+      "bodies": 1077,
+      "newErrors": []
+    },
+    {
+      "round": 20,
+      "set": [
+        [
+          "Sound drive",
+          1.293
+        ],
+        [
+          "Pulse burst tilt · base °",
+          177.942
+        ],
+        [
+          "Pulse burst move together",
+          0.045
+        ],
+        [
+          "Pulse burst lava · churn rate",
+          1.292
+        ],
+        [
+          "Pulse burst breath · rate",
+          2.065
+        ],
+        [
+          "Pulse burst hold formation",
+          1.543
+        ],
+        [
+          "orbit spin",
+          0.646
+        ],
+        [
+          "turn step",
+          0.125
+        ]
+      ],
+      "frames": 2,
+      "ms": 706,
+      "ink": 205,
+      "nan": 0,
+      "bodies": 1077,
+      "newErrors": []
+    },
+    {
+      "round": 21,
+      "set": [
+        [
+          "Frame hue",
+          -28.863
+        ],
+        [
+          "Zoom",
+          1.304
+        ],
+        [
+          "Chromatic aberration",
+          0.782
+        ],
+        [
+          "depth",
+          0.233
+        ],
+        [
+          "Perspective",
+          0.695
+        ],
+        [
+          "depth",
+          0.711
+        ],
+        [
+          "Arrival",
+          0.55
+        ],
+        [
+          "Tilt",
+          -0.925
+        ]
+      ],
+      "frames": 2,
+      "ms": 721,
+      "ink": 200,
+      "nan": 0,
+      "bodies": 1077,
+      "newErrors": []
+    },
+    {
+      "round": 22,
+      "set": [
+        [
+          "depth",
+          -0.388
+        ],
+        [
+          "depth",
+          -0.114
+        ],
+        [
+          "Pulse burst motion blur",
+          0.017
+        ],
+        [
+          "Echo turn",
+          -0.04
+        ],
+        [
+          "BPM",
+          183.249
+        ],
+        [
+          "depth",
+          -0.881
+        ],
+        [
+          "Echo decay",
+          0.875
+        ],
+        [
+          "mirror turn",
+          -2.875
+        ]
+      ],
+      "frames": 11,
+      "ms": 2875,
+      "ink": 206,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 23,
+      "set": [
+        [
+          "orbit spin",
+          0.254
+        ],
+        [
+          "Pulse burst figure · tempo",
+          1.385
+        ],
+        [
+          "Pulse burst motion blur",
+          0.877
+        ],
+        [
+          "Echo decay",
+          0.918
+        ],
+        [
+          "Pulse burst float · lava",
+          0.012
+        ],
+        [
+          "copy fade",
+          0.242
+        ],
+        [
+          "copy scale",
+          0.795
+        ],
+        [
+          "ring",
+          0.457
+        ]
+      ],
+      "frames": 2,
+      "ms": 704,
+      "ink": 200,
+      "nan": 0,
+      "bodies": 1077,
+      "newErrors": []
+    },
+    {
+      "round": 24,
+      "set": [
+        [
+          "copy scale",
+          0.576
+        ],
+        [
+          "Pulse burst breath · depth",
+          2.145
+        ],
+        [
+          "Speed",
+          1.008
+        ],
+        [
+          "Frame hue",
+          -173.761
+        ],
+        [
+          "circle · bass",
+          0.426
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.944
+        ],
+        [
+          "Background lightness",
+          0.078
+        ],
+        [
+          "Frame hue",
+          80.555
+        ]
+      ],
+      "frames": 3,
+      "ms": 811,
+      "ink": 196,
+      "nan": 0,
+      "bodies": 1077,
+      "newErrors": []
+    },
+    {
+      "round": 25,
+      "set": [
+        [
+          "rect · mids",
+          0.196
+        ],
+        [
+          "Pulse burst figure · tempo",
+          0.757
+        ],
+        [
+          "Tilt",
+          -0.39
+        ],
+        [
+          "Pulse burst picture radius",
+          8.453
+        ],
+        [
+          "Colour shimmer",
+          0.949
+        ],
+        [
+          "depth",
+          -0.962
+        ],
+        [
+          "ring",
+          0.252
+        ],
+        [
+          "Echo hue drift",
+          3.008
+        ]
+      ],
+      "frames": 2,
+      "ms": 2504,
+      "ink": 197,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 26,
+      "set": [
+        [
+          "Echo hue drift",
+          0.463
+        ],
+        [
+          "orbit spin",
+          -0.069
+        ],
+        [
+          "Auto tilt",
+          0.012
+        ],
+        [
+          "Pulse burst figure · width",
+          2.128
+        ],
+        [
+          "rect · mids",
+          0.278
+        ],
+        [
+          "Scene smoothness",
+          2.778
+        ],
+        [
+          "BPM",
+          202.289
+        ],
+        [
+          "Perspective",
+          0.139
+        ]
+      ],
+      "frames": 3,
+      "ms": 943,
+      "ink": 203,
+      "nan": 0,
+      "bodies": 1077,
+      "newErrors": []
+    },
+    {
+      "round": 27,
+      "set": [
+        [
+          "Tempo trim",
+          1.553
+        ],
+        [
+          "Pulse burst avoid each other",
+          0.024
+        ],
+        [
+          "Pulse burst lava · lag spread",
+          0.335
+        ],
+        [
+          "Pulse burst breath · rate",
+          1.045
+        ],
+        [
+          "Echo hue drift",
+          11.457
+        ],
+        [
+          "Pulse burst breath · depth",
+          2.113
+        ],
+        [
+          "turn step",
+          -0.703
+        ],
+        [
+          "Pulse burst breath · rate",
+          0.14
+        ]
+      ],
+      "frames": 13,
+      "ms": 2544,
+      "ink": 239,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 28,
+      "set": [
+        [
+          "rect · mids",
+          0.831
+        ],
+        [
+          "Echo turn",
+          0.059
+        ],
+        [
+          "Auto tilt",
+          0.312
+        ],
+        [
+          "Colour shimmer",
+          0.631
+        ],
+        [
+          "Pulse burst lava · viscosity",
+          0.826
+        ],
+        [
+          "BPM",
+          164.25
+        ],
+        [
+          "Chaos",
+          0.074
+        ],
+        [
+          "copy scale",
+          0.595
+        ]
+      ],
+      "frames": 4,
+      "ms": 2644,
+      "ink": 243,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 29,
+      "set": [
+        [
+          "Auto spin",
+          -0.056
+        ],
+        [
+          "Chaos",
+          0.631
+        ],
+        [
+          "BPM",
+          177.744
+        ],
+        [
+          "Scene smoothness",
+          4.839
+        ],
+        [
+          "Echo",
+          0.114
+        ],
+        [
+          "Pulse burst size · one body",
+          22.141
+        ],
+        [
+          "mirror spin",
+          -0.47
+        ],
+        [
+          "Pulse burst move together",
+          0.359
+        ]
+      ],
+      "frames": 16,
+      "ms": 2578,
+      "ink": 183,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 30,
+      "set": [
+        [
+          "Scene smoothness",
+          1.729
+        ],
+        [
+          "copy fade",
+          0.381
+        ],
+        [
+          "mirror spin",
+          -0.162
+        ],
+        [
+          "Background lightness",
+          0.026
+        ],
+        [
+          "Pulse burst wobble · rate",
+          2.904
+        ],
+        [
+          "Scene smoothness",
+          2.848
+        ],
+        [
+          "depth",
+          -0.481
+        ],
+        [
+          "depth",
+          -0.736
+        ]
+      ],
+      "frames": 1,
+      "ms": 2504,
+      "ink": 176,
+      "nan": 0,
+      "bodies": 1077,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 31,
+      "set": [
+        [
+          "Pulse burst breath · rate",
+          0.434
+        ],
+        [
+          "Aberration angle",
+          205.462
+        ],
+        [
+          "depth",
+          0.952
+        ],
+        [
+          "Pulse burst wobble · rate",
+          4.823
+        ],
+        [
+          "Pulse burst move together",
+          0.028
+        ],
+        [
+          "Pulse burst body tilt range",
+          0.727
+        ],
+        [
+          "Pulse burst wobble · comic",
+          0.949
+        ],
+        [
+          "Pulse burst wobble · comic",
+          0.924
+        ]
+      ],
+      "frames": 28,
+      "ms": 731,
+      "ink": 216,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 32,
+      "set": [
+        [
+          "Perspective",
+          0.175
+        ],
+        [
+          "Pulse burst size · one body",
+          73.033
+        ],
+        [
+          "depth",
+          0.687
+        ],
+        [
+          "Chaos",
+          0.183
+        ],
+        [
+          "Pulse burst wobble · comic",
+          0.502
+        ],
+        [
+          "Aberration angle",
+          292.229
+        ],
+        [
+          "Background lightness",
+          0.309
+        ],
+        [
+          "Echo decay",
+          0.963
+        ]
+      ],
+      "frames": 95,
+      "ms": 2532,
+      "ink": 39,
+      "nan": 0,
+      "bodies": 520,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 33,
+      "set": [
+        [
+          "Echo zoom",
+          0.992
+        ],
+        [
+          "Speed",
+          1.302
+        ],
+        [
+          "copies",
+          4.062
+        ],
+        [
+          "Tempo trim",
+          3.277
+        ],
+        [
+          "Pulse burst lava · churn rate",
+          1.621
+        ],
+        [
+          "Arrival",
+          0.665
+        ],
+        [
+          "Chromatic aberration",
+          0.777
+        ],
+        [
+          "mirror spin",
+          0.808
+        ]
+      ],
+      "frames": 2,
+      "ms": 1293,
+      "ink": 66,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 34,
+      "set": [
+        [
+          "Echo turn",
+          -0.028
+        ],
+        [
+          "Echo zoom",
+          1.017
+        ],
+        [
+          "Perspective",
+          0.716
+        ],
+        [
+          "copy fade",
+          0.24
+        ],
+        [
+          "mirror spin",
+          -0.684
+        ],
+        [
+          "Tilt",
+          0.865
+        ],
+        [
+          "Pulse burst lava · churn rate",
+          1.375
+        ],
+        [
+          "BPM",
+          75.315
+        ]
+      ],
+      "frames": 5,
+      "ms": 735,
+      "ink": 246,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 35,
+      "set": [
+        [
+          "ring",
+          0.471
+        ],
+        [
+          "Speed",
+          0.849
+        ],
+        [
+          "depth",
+          0.884
+        ],
+        [
+          "Perspective",
+          1.186
+        ],
+        [
+          "depth",
+          -0.813
+        ],
+        [
+          "Pulse burst hold formation",
+          1.561
+        ],
+        [
+          "Echo hue drift",
+          11.525
+        ],
+        [
+          "copy fade",
+          0.874
+        ]
+      ],
+      "frames": 2,
+      "ms": 709,
+      "ink": 256,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 36,
+      "set": [
+        [
+          "depth",
+          -0.093
+        ],
+        [
+          "Chromatic aberration",
+          0.176
+        ],
+        [
+          "Pulse burst float · lava",
+          0.579
+        ],
+        [
+          "Pulse burst breath · depth",
+          1.858
+        ],
+        [
+          "Pulse burst opacity",
+          0.573
+        ],
+        [
+          "Aberration angle",
+          55.731
+        ],
+        [
+          "Background lightness",
+          0.341
+        ],
+        [
+          "Pulse burst opacity · body",
+          0.862
+        ]
+      ],
+      "frames": 2,
+      "ms": 711,
+      "ink": 256,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 37,
+      "set": [
+        [
+          "Echo hue drift",
+          5.027
+        ],
+        [
+          "Sound drive",
+          0.506
+        ],
+        [
+          "Background lightness",
+          0.051
+        ],
+        [
+          "Pulse burst breath · rate",
+          1.481
+        ],
+        [
+          "mirror turn",
+          -3.006
+        ],
+        [
+          "Echo decay",
+          0.987
+        ],
+        [
+          "Pulse burst breath · rate",
+          1.19
+        ],
+        [
+          "triangle · highs",
+          0.674
+        ]
+      ],
+      "frames": 2,
+      "ms": 704,
+      "ink": 255,
+      "nan": 0,
+      "bodies": 520,
+      "newErrors": []
+    },
+    {
+      "round": 38,
+      "set": [
+        [
+          "ring",
+          0.436
+        ],
+        [
+          "Perspective",
+          0.523
+        ],
+        [
+          "orbit spin",
+          -0.573
+        ],
+        [
+          "Pulse burst size range",
+          0.737
+        ],
+        [
+          "circle · bass",
+          0.401
+        ],
+        [
+          "depth",
+          0.901
+        ],
+        [
+          "Pulse burst fall",
+          0.112
+        ],
+        [
+          "triangle · highs",
+          0.66
+        ]
+      ],
+      "frames": 33,
+      "ms": 2504,
+      "ink": 120,
+      "nan": 0,
+      "bodies": 520,
+      "reprobed": true,
+      "newErrors": []
+    },
+    {
+      "round": 39,
+      "set": [
+        [
+          "Auto tilt",
+          0.227
+        ],
+        [
+          "depth",
+          -0.324
+        ],
+        [
+          "Pulse burst opacity · body",
+          0.176
+        ],
+        [
+          "depth",
+          0.251
+        ],
+        [
+          "Pulse burst density · bodies",
+          537.268
+        ],
+        [
+          "Tilt",
+          0.466
+        ],
+        [
+          "Pulse burst wobble · comic",
+          0.066
+        ],
+        [
+          "Sound drive",
+          1.087
+        ]
+      ],
+      "frames": 2,
+      "ms": 703,
+      "ink": 105,
+      "nan": 0,
+      "bodies": 537,
+      "newErrors": []
+    }
+  ],
+  "errors": []
+}

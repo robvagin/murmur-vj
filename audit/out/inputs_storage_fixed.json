@@ -1,0 +1,39 @@
+{
+  "storage": [
+    {
+      "name": "banks-stored-as-object",
+      "booted": true,
+      "errors": []
+    },
+    {
+      "name": "quota-full-then-save",
+      "threw": null,
+      "frames": 9,
+      "ink": 228,
+      "tainted": false,
+      "nan": 0,
+      "bodies": 520,
+      "layers": 1,
+      "status": "slot 1 held in memory — too big for storage, export it",
+      "xss": null,
+      "errors": []
+    },
+    {
+      "name": "preflight-when-full",
+      "verdict": "READY"
+    },
+    {
+      "name": "restore-old-format-session",
+      "threw": null,
+      "frames": 16,
+      "ink": 248,
+      "tainted": false,
+      "nan": 0,
+      "bodies": 1040,
+      "layers": 2,
+      "status": "last session restored",
+      "xss": null,
+      "errors": []
+    }
+  ]
+}
