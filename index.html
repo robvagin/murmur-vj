@@ -9174,6 +9174,7 @@ input.sw:checked{border:0;background:var(--ink)}
           row.addEventListener('pointerenter', () => {
             if (raf) return;
             const tick = () => {
+              if (!row.isConnected) return void (raf = 0);
               raf = requestAnimationFrame(tick);
               const dn = DRIVEN_NOW.get(L.id + '::' + p.key);
               s2.setLive(dn != null ? dn : p.get());
