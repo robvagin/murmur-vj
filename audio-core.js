@@ -159,8 +159,8 @@
         var g = agc[b], r = bandsRaw[b];
         if (r > g.hi) g.hi = r; else g.hi += (r - g.hi) * kRelax;
         if (r < g.lo) g.lo = r; else g.lo += (r - g.lo) * kRelax;
-        var span = g.hi - g.lo, conf = clamp(span / SPAN_TRUST, 0, 1);
-        features.bands[AC_BANDS[b][0]] = clamp((r - g.lo) / Math.max(span, .001), 0, 1) * conf;
+        var span = g.hi - g.lo, trust = clamp(span / SPAN_TRUST, 0, 1);
+        features.bands[AC_BANDS[b][0]] = clamp((r - g.lo) / Math.max(span, .001), 0, 1) * trust;
         features.bandSpan[AC_BANDS[b][0]] = span;
       }
       var rms;

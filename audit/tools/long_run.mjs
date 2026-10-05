@@ -2,6 +2,8 @@
 //   node audit/tools/long_run.mjs [minutes=32] [track]
 // Env: MURMUR_ROOT (served dir), MURMUR_TRACKS, MURMUR_OUT, PORT.
 // Writes long_run.json / long_run.csv into MURMUR_OUT.
+// SCENARIO=heavy adds: camera on (in shapes + as layer), palette every 60 s, a layer added every 90 s
+// and removed 45 s later, UI hidden/shown every 120 s, pointer resting on a layer-card row (hover media on).
 import path from 'node:path';
 import fs from 'node:fs';
 import { launch, startServer, openMurmur, armMic, frameInk, nanBodies, metrics, sleep, TRACKS, OUT, RAF_COUNTER, writeJSON } from './lib.mjs';
@@ -14,6 +16,9 @@ const srv = await startServer(port);
 const { browser, page, log, cdp } = await launch({ track, extra: (process.env.FLAGS ?? '--disable-accelerated-2d-canvas').split(' ').filter(Boolean), viewport: { width: +(process.env.W || 1280), height: +(process.env.H || 720) } });
 await page.addInitScript(RAF_COUNTER);
 await cdp.send('Performance.enable');
+const HEAVY = process.env.SCENARIO === 'heavy';
+if (HEAVY) await cdp.send('Emulation.setEmulatedMedia', { features: [{ name: 'hover', value: 'hover' }, { name: 'pointer', value: 'fine' }] });
+const OUTNAME = process.env.OUTNAME || 'long_run';
 const rows = [];
 const t0 = Date.now();
 const el = () => (Date.now() - t0) / 1000;
@@ -49,9 +54,9 @@ async function sample(minute) {
   };
   rows.push(row);
   console.log(JSON.stringify(row));
-  writeJSON('long_run.json', { minutes, track: path.basename(track), rows, errors: log.errors.slice(0, 50) });
+  writeJSON(OUTNAME + '.json', { minutes, track: path.basename(track), rows, errors: log.errors.slice(0, 50) });
   const cols = Object.keys(row);
-  fs.writeFileSync(path.join(OUT, 'long_run.csv'), [cols.join(',')].concat(rows.map(r => cols.map(c => r[c]).join(','))).join('\n'));
+  fs.writeFileSync(path.join(OUT, OUTNAME + '.csv'), [cols.join(',')].concat(rows.map(r => cols.map(c => r[c]).join(','))).join('\n'));
 }
 
 try {
@@ -65,16 +70,28 @@ try {
   await page.evaluate(() => window.__murmur.addLayer('pat-form'));
   await page.keyboard.press('p');
   await save(3);
-  await page.mouse.move(960, 540); // pointer rests on the stage
+  if (HEAVY) {
+    await page.click('#camBtn');
+    await sleep(1500);
+    await page.evaluate(() => { const M = window.__murmur; M.state.camW = 1.4; M.state.cam2.layer = .3; M.rebuildTex(); });
+    const box = await (await page.$('#focusBody .row .scrub')).boundingBox();
+    await page.mouse.move(box.x + 6, box.y + 6); // pointer rests on a card row
+  } else await page.mouse.move(960, 540); // pointer rests on the stage
   await page.evaluate(() => document.activeElement && document.activeElement.blur());
   await sample(0);
-  let scene = 3, nextSceneAt = 20, nextSample = 60;
+  let scene = 3, nextSceneAt = 20, nextSample = 60, nextPal = 60, nextAdd = 90, removeAt = -1, nextUI = 120;
   while (el() < minutes * 60) {
     await sleep(1000);
     if (el() >= nextSceneAt) {
       scene = scene % 3 + 1;
       await page.keyboard.press(String(scene));
       nextSceneAt += 20;
+    }
+    if (HEAVY) {
+      if (el() >= nextPal) { await page.keyboard.press('p'); nextPal += 60; }
+      if (el() >= nextAdd) { await page.evaluate(() => { window.__heavyL = window.__murmur.addLayer(['pat-form', 'word', 'mark', 'pat-burst'][Math.floor(Math.random() * 4)]).id; }); removeAt = el() + 45; nextAdd += 90; }
+      if (removeAt > 0 && el() >= removeAt) { await page.evaluate(() => window.__murmur.removeSlow(window.__heavyL)); removeAt = -1; }
+      if (el() >= nextUI) { await page.keyboard.press('h'); await sleep(800); await page.keyboard.press('h'); nextUI += 120; }
     }
     if (el() >= nextSample) {
       await sample(Math.round(nextSample / 60));
