@@ -9780,7 +9780,15 @@ input.sw:checked{border:0;background:var(--ink)}
     drawRamp();
   }
   addEventListener('resize', resize);
-  const lamp = $("#lamp");
+  (function watchDpr() {
+    matchMedia('(resolution: ' + (devicePixelRatio || 1) + 'dppx)').addEventListener('change', () => {
+      resize();
+      watchDpr();
+    }, {
+      once: true
+    });
+  })();
+  const lamp =$("#lamp");
   let lampV = 0, fpsAcc = 0, fpsN = 0, fpsShown = 0, lastQuads = 0, frameNo = 0;
   let panelOn = true, panelResync = false;
   function panelVisible() {
