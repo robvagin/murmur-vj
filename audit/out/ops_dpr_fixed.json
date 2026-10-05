@@ -1,0 +1,41 @@
+{
+  "dpr": [
+    {
+      "phase": "start",
+      "dpr": 1,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      }
+    },
+    {
+      "phase": "DPR 1 -> 2, same window size (laptop screen)",
+      "dpr": 2,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 2,
+        "renderScale": 1,
+        "buf": "1456×1600",
+        "mpx": 2.33
+      }
+    },
+    {
+      "phase": "DPR 2 -> 1 (dragged to projector)",
+      "dpr": 1,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      }
+    }
+  ],
+  "errors": []
+}

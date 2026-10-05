@@ -1,0 +1,27 @@
+{
+  "fonts": {
+    ".ptitle": "Inter Tight (embedded)",
+    "legend": "Liberation Sans (system)",
+    ".row > label": "Liberation Sans (system)",
+    ".btn": "Liberation Sans (system)",
+    ".scrub .sval": "DejaVu Sans Mono (system)",
+    ".tinSelect": "Liberation Sans (system)",
+    "#footText": "DejaVu Sans (system)",
+    "#bpmOut": "Liberation Sans (system)",
+    ".note": "Liberation Sans (system)",
+    ".navItem": "Liberation Sans (system)",
+    "kbd": "Liberation Sans (system)"
+  },
+  "requests": [
+    "/index.html",
+    "/audio-core.js",
+    "/assets/symbol.svg"
+  ],
+  "unexpectedRequests": [],
+  "a11y": {
+    "interactive": 164,
+    "unnamed": 0,
+    "examples": []
+  },
+  "tabStops": 74
+}

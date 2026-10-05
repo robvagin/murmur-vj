@@ -1,0 +1,7 @@
+{"track":"click_120","fps":13.6,"nanSeen":false,"errors":0,"truth":120,"firstEstimateAt":3.22,"lockAt":null,"medianLast30s":119.89,"min":60,"max":126.43,"shareInTolAfter10s":0.42,"final":120.79}
+{"track":"click_128","fps":13.1,"nanSeen":false,"errors":0,"truth":128,"firstEstimateAt":3.21,"lockAt":null,"medianLast30s":125.97,"min":63.24,"max":139.88,"shareInTolAfter10s":0.14,"final":64}
+{"track":"click_140","fps":13.1,"nanSeen":false,"errors":0,"truth":140,"firstEstimateAt":3.25,"lockAt":null,"medianLast30s":71.15,"min":69.28,"max":144.35,"shareInTolAfter10s":0.16,"final":142.86}
+{"track":"click_174","fps":13.1,"nanSeen":false,"errors":0,"truth":174,"firstEstimateAt":3.16,"lockAt":null,"medianLast30s":87.05,"min":60,"max":184.27,"shareInTolAfter10s":0.11,"final":60}
+{"track":"silence","fps":7.5,"nanSeen":false,"errors":0,"truth":0,"firstEstimateAt":null,"lockAt":null,"medianLast30s":0,"min":0,"max":0,"shareInTolAfter10s":null,"final":0}
+{"track":"noise","fps":13.3,"nanSeen":false,"errors":0,"truth":0,"firstEstimateAt":3.18,"lockAt":null,"medianLast30s":65.51,"min":60,"max":97.08,"shareInTolAfter10s":null,"final":65.51}
+{"track":"sweep","fps":12.6,"nanSeen":false,"errors":0,"truth":0,"firstEstimateAt":6.78,"lockAt":null,"medianLast30s":200,"min":60,"max":200,"shareInTolAfter10s":null,"final":65.47}

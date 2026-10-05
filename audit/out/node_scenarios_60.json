@@ -1,0 +1,221 @@
+[
+  {
+    "track": "tempo_change",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-40s",
+        "truth": 128,
+        "medianBpm2ndHalf": 128.04,
+        "range2ndHalf": [
+          127.68,
+          128.23
+        ],
+        "lockFromSegStart": 3.1,
+        "phase": {
+          "medianAbsMs": 210.5,
+          "medianSignedMs": 210.5,
+          "within40ms": 0,
+          "beats": 42
+        }
+      },
+      {
+        "seg": "40-80s",
+        "truth": 140,
+        "medianBpm2ndHalf": 139.57,
+        "range2ndHalf": [
+          139.47,
+          139.94
+        ],
+        "lockFromSegStart": 5.719999999999999,
+        "phase": {
+          "medianAbsMs": 124.4,
+          "medianSignedMs": -124.4,
+          "within40ms": 0,
+          "beats": 46
+        }
+      }
+    ]
+  },
+  {
+    "track": "breakdown",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-30s",
+        "truth": 128,
+        "medianBpm2ndHalf": 128.04,
+        "range2ndHalf": [
+          127.68,
+          128.19
+        ],
+        "lockFromSegStart": 3.1,
+        "phase": {
+          "medianAbsMs": 208.3,
+          "medianSignedMs": 208.3,
+          "within40ms": 0,
+          "beats": 32
+        }
+      },
+      {
+        "seg": "30-46s",
+        "truth": 0,
+        "medianBpm2ndHalf": 157.76,
+        "range2ndHalf": [
+          156.24,
+          159.82
+        ],
+        "lockFromSegStart": null,
+        "phase": null
+      },
+      {
+        "seg": "46-76s",
+        "truth": 128,
+        "medianBpm2ndHalf": 127.95,
+        "range2ndHalf": [
+          127.72,
+          128.75
+        ],
+        "lockFromSegStart": 1.2700000000000031,
+        "phase": {
+          "medianAbsMs": 104.2,
+          "medianSignedMs": -102.1,
+          "within40ms": 0,
+          "beats": 32
+        }
+      }
+    ]
+  },
+  {
+    "track": "swing",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-80s",
+        "truth": 124,
+        "medianBpm2ndHalf": 123.95,
+        "range2ndHalf": [
+          123.78,
+          124.04
+        ],
+        "lockFromSegStart": 3.1,
+        "phase": {
+          "medianAbsMs": 25.2,
+          "medianSignedMs": 25.2,
+          "within40ms": 1,
+          "beats": 83
+        }
+      }
+    ]
+  },
+  {
+    "track": "quiet",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-80s",
+        "truth": 128,
+        "medianBpm2ndHalf": 128.11,
+        "range2ndHalf": [
+          127.75,
+          128.76
+        ],
+        "lockFromSegStart": 3.1,
+        "phase": {
+          "medianAbsMs": 137.5,
+          "medianSignedMs": 137.5,
+          "within40ms": 0,
+          "beats": 85
+        }
+      }
+    ]
+  },
+  {
+    "track": "clipped",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-80s",
+        "truth": 128,
+        "medianBpm2ndHalf": 128,
+        "range2ndHalf": [
+          127.69,
+          128.76
+        ],
+        "lockFromSegStart": 3.1,
+        "phase": {
+          "medianAbsMs": 210.5,
+          "medianSignedMs": 210.5,
+          "within40ms": 0,
+          "beats": 86
+        }
+      }
+    ]
+  },
+  {
+    "track": "halftime",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-80s",
+        "truth": 140,
+        "medianBpm2ndHalf": 70.03,
+        "range2ndHalf": [
+          69.93,
+          70.18
+        ],
+        "lockFromSegStart": null,
+        "phase": {
+          "medianAbsMs": 76.2,
+          "medianSignedMs": 76.2,
+          "within40ms": 0,
+          "beats": 46
+        }
+      }
+    ]
+  },
+  {
+    "track": "dnb",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-80s",
+        "truth": 174,
+        "medianBpm2ndHalf": 87.07,
+        "range2ndHalf": [
+          86.99,
+          87.17
+        ],
+        "lockFromSegStart": null,
+        "phase": {
+          "medianAbsMs": 83.3,
+          "medianSignedMs": -83.3,
+          "within40ms": 0,
+          "beats": 58
+        }
+      }
+    ]
+  },
+  {
+    "track": "drift",
+    "fps": 60,
+    "segs": [
+      {
+        "seg": "0-80s",
+        "truth": "ramp 125-129",
+        "medianBpm2ndHalf": 127.86,
+        "range2ndHalf": [
+          126.74,
+          128.94
+        ],
+        "lockFromSegStart": null,
+        "phase": {
+          "medianAbsMs": 206.1,
+          "medianSignedMs": 206.1,
+          "within40ms": 0,
+          "beats": 85
+        }
+      }
+    ]
+  }
+]

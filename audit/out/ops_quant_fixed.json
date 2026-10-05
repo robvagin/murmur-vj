@@ -1,0 +1,40 @@
+{
+  "quant": [
+    {
+      "phase": "silence armed, 31 moves pressed, 4 s later",
+      "pending": 0,
+      "moving": true,
+      "bpm": 0,
+      "fps": 5.8,
+      "ink": 227,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "lead · Pulse burst",
+      "verdict": "DEGRADED · SCREEN MAY SLEEP"
+    },
+    {
+      "phase": "after TAP x5 at 120",
+      "pending": 0,
+      "moving": true,
+      "bpm": 0,
+      "persp": 0.9426709401709401,
+      "chaos": 0.5525907418613244,
+      "fps": 3.7,
+      "ink": 219,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "lead · Pulse burst",
+      "verdict": "DEGRADED · SCREEN MAY SLEEP"
+    },
+    {
+      "phase": "8 s later (all moves done)",
+      "moving": false,
+      "persp": 0.9426709401709401,
+      "chaos": 0.11344086021505377,
+      "attract": 0.0002967711301044635
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,7 @@
+hover mq true
+before 2
+box {"x":141,"y":37.015625,"width":120,"height":26} scrub
+hover 1 row 3
+after 20 rerenders while hovering 3
+pointer gone 2
+10x synthetic pointerenter + rerender, no pointerleave 2.4

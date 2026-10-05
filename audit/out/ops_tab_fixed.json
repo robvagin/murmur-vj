@@ -1,0 +1,27 @@
+{
+  "tab": [
+    {
+      "phase": "tab share without audio",
+      "status": "No audio track. Tick \"Share tab audio\" in the picker.",
+      "arm": "RETRY",
+      "input": "clock",
+      "armed": false,
+      "audio": "failed",
+      "fps": 11.8,
+      "ink": 238,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "verdict": "READY"
+    },
+    {
+      "phase": "system share cancelled",
+      "status": "sharing was cancelled or refused — press ARM and pick a tab or screen with audio",
+      "arm": "RETRY",
+      "input": "clock",
+      "armed": false,
+      "audio": "failed"
+    }
+  ],
+  "errors": []
+}

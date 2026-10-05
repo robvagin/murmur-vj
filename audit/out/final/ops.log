@@ -1,0 +1,30 @@
+gl {"phase":"post on","fps":4,"ink":206,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY","post":"gl","s1":"e9753e6a","s2":"60d0ef8b"}
+gl {"phase":"context lost","fps":13.8,"ink":220,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"DEGRADED · 2D-SAFE","post":"2d-safe","glcv":"none","badge":"POST 2D-SAFE","s1":"81011f7a","s2":"80aa0cb0","errors":[]}
+gl {"phase":"context restored","fps":5.9,"ink":227,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY","post":"gl","glAlive":true,"glcv":"block","s1":"73e559b2","s2":"580b9e3d","errors":[]}
+mixer {"phase":"cued 2","decks":{"cur":2,"next":1},"fps":13.8,"ink":250,"nan":0,"layers":5,"bodies":2564,"status":"scene 2 cued — ride the fader","verdict":"READY"}
+mixer {"phase":"fader 0.10","decks":{"cur":2,"next":1},"t":0.1}
+mixer {"phase":"fader end","decks":{"cur":1,"next":-1},"fps":13.7,"ink":229,"nan":0,"layers":2,"bodies":1072,"status":"scene 2","verdict":"READY"}
+mixer {"phase":"60 fast cue/play presses","decks":{"cur":1,"next":2},"xfOut":2,"xfIn":3,"tween":true,"fps":12.7,"ink":220,"nan":0,"layers":5,"bodies":2564,"status":"scene 3 cued — ride the fader","verdict":"READY","errors":[]}
+mixer {"phase":"mouse drag to end","decks":{"cur":2,"next":-1},"fps":14.3,"ink":249,"nan":0,"layers":3,"bodies":1492,"status":"scene 3","verdict":"READY"}
+mixer {"phase":"mixer off with cue","decks":{"cur":2,"next":-1},"xfIn":0,"fps":14.9,"ink":248,"nan":0,"layers":3,"bodies":1492,"status":"mixer off — a number changes the scene","verdict":"READY"}
+mixer {"phase":"all slots deleted","banks":0,"stored":0,"fps":14.2,"ink":246,"nan":0,"layers":3,"bodies":1492,"status":"","verdict":"READY","errors":[]}
+quant {"phase":"silence armed, 31 moves pressed, 4 s later","pending":0,"moving":true,"bpm":0,"fps":9.6,"ink":237,"nan":0,"layers":1,"bodies":520,"status":"lead · Pulse burst","verdict":"DEGRADED · SCREEN MAY SLEEP"}
+quant {"phase":"after TAP x5 at 120","pending":0,"moving":false,"bpm":73.4528983289382,"persp":0.94,"chaos":0.1,"fps":15.5,"ink":230,"nan":0,"layers":1,"bodies":520,"status":"lead · Pulse burst","verdict":"DEGRADED · SCREEN MAY SLEEP"}
+quant {"phase":"8 s later (all moves done)","moving":false,"persp":0.94,"chaos":0.1,"attract":0.01}
+rack {"phase":"count driven by beat.pulse, gate, depth 1 (8 s)","fps":11.7,"ink":217,"nan":0,"layers":1,"bodies":520,"status":"live · 44 kHz","verdict":"DEGRADED · SCREEN MAY SLEEP","heapMB":3.58,"nodes":5358,"listeners":757,"heapBefore":3.3}
+rack {"phase":"10 rows at depth 1000","fps":12.4,"ink":219,"nan":0,"layers":1,"bodies":520,"status":"live · 44 kHz","verdict":"DEGRADED · SCREEN MAY SLEEP","cam":{"zoom":0.2,"persp":0.94}}
+rack {"phase":"rows removed: values back to base?","cam":{"zoom":0.2,"persp":0.94},"echo":0,"hue":0,"opacity":1}
+maxfx {"phase":"baseline 1080p","fps":9,"ink":213,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY"}
+maxfx {"phase":"every effect at max","fps":1.6,"ink":256,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY","errors":[]}
+maxfx {"phase":"+ symbol, logo-as-void 2","fps":2.8,"ink":208,"nan":0,"layers":2,"bodies":940,"status":"clock — internal BPM","verdict":"READY"}
+spam {"phase":"baseline","heapMB":2.52,"nodes":4746,"listeners":728}
+spam {"phase":"palette x300","heapMB":3.4,"nodes":4675,"listeners":723,"fps":9.7,"ink":204,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY"}
+spam {"phase":"add+remove layer x200","heapMB":3.3,"nodes":4066,"listeners":711,"fps":13,"ink":202,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY","scrubs":42}
+spam {"phase":"duplicate x50 then remove","heapMB":3.2,"nodes":4064,"listeners":711,"fps":13.5,"ink":204,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY"}
+spam {"phase":"add asset + CLEAR x30","heapMB":4.59,"nodes":4050,"listeners":724,"fps":19.5,"ink":181,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"READY"}
+spam {"phase":"hide/show UI x100","heapMB":4.03,"nodes":4046,"listeners":724,"fps":20.7,"ink":175,"nan":0,"layers":1,"bodies":520,"status":"clock — internal BPM","verdict":"DEGRADED · SCREEN MAY SLEEP"}
+dpr {"phase":"start","dpr":1,"frame":{"w":728,"h":800,"dpr":1,"renderScale":1,"buf":"728×800","mpx":0.58}}
+dpr {"phase":"DPR 1 -> 2, same window size (laptop screen)","dpr":2,"frame":{"w":728,"h":800,"dpr":2,"renderScale":1,"buf":"1456×1600","mpx":2.33}}
+dpr {"phase":"DPR 2 -> 1 (dragged to projector)","dpr":1,"frame":{"w":728,"h":800,"dpr":1,"renderScale":1,"buf":"728×800","mpx":0.58}}
+tab {"phase":"tab share without audio","status":"No audio track. Tick \"Share tab audio\" in the picker.","arm":"RETRY","input":"clock","armed":false,"audio":"failed","fps":13.7,"ink":192,"nan":0,"layers":1,"bodies":520,"verdict":"READY"}
+tab {"phase":"system share cancelled","status":"sharing was cancelled or refused — press ARM and pick a tab or screen with audio","arm":"RETRY","input":"clock","armed":false,"audio":"failed"}

@@ -1,0 +1,21 @@
+{"name":"random spectra","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.9647843167371194}}
+{"name":"all 255 (clipping)","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.9232652922614352}}
+{"name":"all zero incl. time domain","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.0012147095263135288}}
+{"name":"dt = 0","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.0012147095263135288}}
+{"name":"dt = NaN","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.0012147095263135288}}
+{"name":"dt = -1","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":0,"phase":0}}
+{"name":"dt = 1e-9","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":128.22,"phase":0.23939484312595344}}
+{"name":"dt = 60 s every 100 frames","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.94,"phase":0.5760340633133171}}
+{"name":"dt = Infinity once","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":200,"phase":0.9978172360351093}}
+{"name":"now goes backwards","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.94,"phase":0.9930100605443034}}
+{"name":"now = NaN","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":196.41,"phase":0.8717078629099148}}
+{"name":"time = null (no time domain)","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.0012147095263135288}}
+{"name":"short freq array (512 bins)","firstBad":{"at":0,"bad":["bands.treble","bandSpan.treble","env.highFast","env.highSlow"]},"badAtEndOfFuzz":["bands.treble","bandSpan.treble","env.highFast","env.highSlow"],"afterRecovery":{"bad":["bands.treble","bandSpan.treble","env.highFast","env.highSlow"],"bpm":127.85,"phase":0.9233536283718288}}
+{"name":"Float32 spectrum in dB (negative)","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.9985890536915943}}
+{"name":"setBPM(NaN) once","firstBad":{"at":300,"bad":["beat.bpm"]},"badAtEndOfFuzz":["beat.bpm"],"afterRecovery":{"bad":["beat.bpm"],"bpm":null,"phase":0}}
+{"name":"setBPM(Infinity) once","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":220,"phase":0.6666666666666741}}
+{"name":"shift(NaN) once","firstBad":{"at":300,"bad":["beat.phase"]},"badAtEndOfFuzz":["beat.phase"],"afterRecovery":{"bad":["beat.phase"],"bpm":127.85,"phase":null}}
+{"name":"nudge(Infinity) once","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":220,"phase":0.6666666666666741}}
+{"name":"setTrim(\"abc\") once","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.0012147095263135288}}
+{"name":"tap with NaN times","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.0012147095263135288}}
+{"name":"tap 4x at 0.05 s (too fast)","firstBad":null,"badAtEndOfFuzz":[],"afterRecovery":{"bad":[],"bpm":127.85,"phase":0.0012147095263135288}}

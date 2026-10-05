@@ -1,0 +1,10 @@
+{
+  "track": "swing",
+  "bpm": 123.68,
+  "kicksSeen": 67,
+  "ticks2ndHalf": 29,
+  "medianOffsetMs": 35.2,
+  "medianAbsMs": 174.8,
+  "within40ms": 0.36,
+  "medianOffsetBeats": 0.07
+}

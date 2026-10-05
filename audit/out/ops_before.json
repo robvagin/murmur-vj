@@ -1,0 +1,394 @@
+{
+  "gl": [
+    {
+      "phase": "post on",
+      "fps": 4.8,
+      "ink": 207,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY",
+      "post": "gl",
+      "s1": "0ef5788b",
+      "s2": "0128fd6c"
+    },
+    {
+      "phase": "context lost",
+      "fps": 7.9,
+      "ink": 218,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "DEGRADED · 2D-SAFE",
+      "post": "2d-safe",
+      "glcv": "none",
+      "badge": "POST 2D-SAFE",
+      "s1": "489d3240",
+      "s2": "0cea0b9f",
+      "errors": []
+    },
+    {
+      "phase": "context restored",
+      "fps": 1.9,
+      "ink": 229,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY",
+      "post": "gl",
+      "glAlive": true,
+      "glcv": "block",
+      "s1": "957a95b8",
+      "s2": "8fa66fde",
+      "errors": []
+    }
+  ],
+  "mixer": [
+    {
+      "phase": "cued 2",
+      "decks": {
+        "cur": 2,
+        "next": 1
+      },
+      "fps": 4.5,
+      "ink": 249,
+      "nan": 0,
+      "layers": 5,
+      "bodies": 2564,
+      "status": "scene 2 cued — ride the fader",
+      "verdict": "READY"
+    },
+    {
+      "phase": "fader 0.10",
+      "decks": {
+        "cur": 2,
+        "next": 1
+      },
+      "t": 0.1
+    },
+    {
+      "phase": "fader end",
+      "decks": {
+        "cur": 1,
+        "next": -1
+      },
+      "fps": 5.7,
+      "ink": 225,
+      "nan": 0,
+      "layers": 2,
+      "bodies": 1072,
+      "status": "scene 2",
+      "verdict": "READY"
+    },
+    {
+      "phase": "60 fast cue/play presses",
+      "decks": {
+        "cur": 1,
+        "next": 2
+      },
+      "xfOut": 2,
+      "xfIn": 3,
+      "tween": true,
+      "fps": 7.6,
+      "ink": 219,
+      "nan": 0,
+      "layers": 5,
+      "bodies": 2564,
+      "status": "scene 3 cued — ride the fader",
+      "verdict": "READY",
+      "errors": []
+    },
+    {
+      "phase": "mouse drag to end",
+      "decks": {
+        "cur": 2,
+        "next": -1
+      },
+      "fps": 1.8,
+      "ink": 249,
+      "nan": 0,
+      "layers": 3,
+      "bodies": 1492,
+      "status": "scene 3",
+      "verdict": "READY"
+    },
+    {
+      "phase": "mixer off with cue",
+      "decks": {
+        "cur": 2,
+        "next": -1
+      },
+      "xfIn": 0,
+      "fps": 11.3,
+      "ink": 253,
+      "nan": 0,
+      "layers": 3,
+      "bodies": 1492,
+      "status": "mixer off — a number changes the scene",
+      "verdict": "READY"
+    },
+    {
+      "phase": "all slots deleted",
+      "banks": 0,
+      "stored": 0,
+      "fps": 7.6,
+      "ink": 252,
+      "nan": 0,
+      "layers": 3,
+      "bodies": 1492,
+      "status": "",
+      "verdict": "READY",
+      "errors": []
+    }
+  ],
+  "quant": [
+    {
+      "phase": "silence armed, 31 moves pressed, 4 s later",
+      "pending": 31,
+      "moving": false,
+      "bpm": 0,
+      "fps": 7.3,
+      "ink": 222,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "queued · lead 1 on next bar",
+      "verdict": "DEGRADED · SCREEN MAY SLEEP"
+    },
+    {
+      "phase": "after TAP x5 at 120",
+      "pending": 0,
+      "moving": true,
+      "bpm": 63.43835906111692,
+      "persp": 0.94,
+      "chaos": 0.31115591397849485,
+      "fps": 7.1,
+      "ink": 227,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "lead · Pulse burst",
+      "verdict": "DEGRADED · SCREEN MAY SLEEP"
+    },
+    {
+      "phase": "8 s later (all moves done)",
+      "moving": true,
+      "persp": 0.94,
+      "chaos": 0.24590973263731475,
+      "attract": 0.01
+    }
+  ],
+  "rack": [
+    {
+      "phase": "count driven by beat.pulse, gate, depth 1 (8 s)",
+      "fps": 9.4,
+      "ink": 238,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "live · 44 kHz",
+      "verdict": "DEGRADED · SCREEN MAY SLEEP",
+      "heapMB": 3.51,
+      "nodes": 5368,
+      "listeners": 756,
+      "heapBefore": 3.26
+    },
+    {
+      "phase": "10 rows at depth 1000",
+      "fps": 8,
+      "ink": 219,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "live · 44 kHz",
+      "verdict": "DEGRADED · SCREEN MAY SLEEP",
+      "cam": {
+        "zoom": 0.2,
+        "persp": 0.94
+      }
+    },
+    {
+      "phase": "rows removed: values back to base?",
+      "cam": {
+        "zoom": 0.2,
+        "persp": 0.94
+      },
+      "echo": 0,
+      "hue": 0,
+      "opacity": 1
+    }
+  ],
+  "maxfx": [
+    {
+      "phase": "baseline 1080p",
+      "fps": 5.5,
+      "ink": 202,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY"
+    },
+    {
+      "phase": "every effect at max",
+      "fps": 0.9,
+      "ink": 250,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY",
+      "errors": []
+    },
+    {
+      "phase": "+ symbol, logo-as-void 2",
+      "fps": 0.3,
+      "ink": 256,
+      "nan": 0,
+      "layers": 2,
+      "bodies": 940,
+      "status": "clock — internal BPM",
+      "verdict": "READY"
+    }
+  ],
+  "spam": [
+    {
+      "phase": "baseline",
+      "heapMB": 2.52,
+      "nodes": 4752,
+      "listeners": 727
+    },
+    {
+      "phase": "palette x300",
+      "heapMB": 2.8,
+      "nodes": 4676,
+      "listeners": 722,
+      "fps": 9.8,
+      "ink": 234,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY"
+    },
+    {
+      "phase": "add+remove layer x200",
+      "heapMB": 3.56,
+      "nodes": 4072,
+      "listeners": 710,
+      "fps": 8.6,
+      "ink": 227,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY",
+      "scrubs": 42
+    },
+    {
+      "phase": "duplicate x50 then remove",
+      "heapMB": 3.22,
+      "nodes": 4072,
+      "listeners": 710,
+      "fps": 7.7,
+      "ink": 184,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY"
+    },
+    {
+      "phase": "add asset + CLEAR x30",
+      "heapMB": 4.5,
+      "nodes": 4056,
+      "listeners": 723,
+      "fps": 16.8,
+      "ink": 174,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "READY"
+    },
+    {
+      "phase": "hide/show UI x100",
+      "heapMB": 4.02,
+      "nodes": 4052,
+      "listeners": 723,
+      "fps": 17.5,
+      "ink": 193,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "status": "clock — internal BPM",
+      "verdict": "DEGRADED · SCREEN MAY SLEEP"
+    }
+  ],
+  "dpr": [
+    {
+      "phase": "start",
+      "dpr": 1,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      }
+    },
+    {
+      "phase": "DPR 1 -> 2, same window size (laptop screen)",
+      "dpr": 2,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      }
+    },
+    {
+      "phase": "DPR 2 -> 1 (dragged to projector)",
+      "dpr": 1,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      }
+    }
+  ],
+  "tab": [
+    {
+      "phase": "tab share without audio",
+      "status": "No audio track. Tick \"Share tab audio\" in the picker.",
+      "arm": "RETRY",
+      "input": "clock",
+      "armed": false,
+      "audio": "failed",
+      "fps": 7,
+      "ink": 229,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "verdict": "READY"
+    },
+    {
+      "phase": "system share cancelled",
+      "status": "mic is blocked for this address — allow it via the mic icon in the address bar",
+      "arm": "RETRY",
+      "input": "clock",
+      "armed": false,
+      "audio": "failed"
+    }
+  ],
+  "errors": []
+}

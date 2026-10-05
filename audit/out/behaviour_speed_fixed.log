@@ -1,0 +1,12 @@
+rain speed 1       {"ink":252,"farthest":721}
+rain speed -30 1 s {"ink":255,"farthest":728}
+rain speed back to 1, picture returns after 1.06 s {"ink":255,"farthest":731}
+fall speed 1       {"ink":157,"farthest":724}
+fall speed -30 1 s {"ink":161,"farthest":724}
+fall speed back to 1, picture returns after 1.013 s {"ink":63,"farthest":728}
+jelly speed 1       {"ink":142,"farthest":374}
+jelly speed -30 1 s {"ink":133,"farthest":374}
+jelly speed back to 1, picture returns after 1.051 s {"ink":141,"farthest":377}
+crystal speed 1       {"ink":127,"farthest":375}
+crystal speed -30 1 s {"ink":118,"farthest":377}
+crystal speed back to 1, picture returns after 1.019 s {"ink":197,"farthest":633}

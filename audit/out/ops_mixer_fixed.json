@@ -1,0 +1,101 @@
+{
+  "mixer": [
+    {
+      "phase": "cued 2",
+      "decks": {
+        "cur": 2,
+        "next": 1
+      },
+      "fps": 7.5,
+      "ink": 242,
+      "nan": 0,
+      "layers": 5,
+      "bodies": 2564,
+      "status": "scene 2 cued — ride the fader",
+      "verdict": "READY"
+    },
+    {
+      "phase": "fader 0.10",
+      "decks": {
+        "cur": 2,
+        "next": 1
+      },
+      "t": 0.1
+    },
+    {
+      "phase": "fader end",
+      "decks": {
+        "cur": 1,
+        "next": -1
+      },
+      "fps": 11.2,
+      "ink": 221,
+      "nan": 0,
+      "layers": 2,
+      "bodies": 1072,
+      "status": "scene 2",
+      "verdict": "READY"
+    },
+    {
+      "phase": "60 fast cue/play presses",
+      "decks": {
+        "cur": 1,
+        "next": 2
+      },
+      "xfOut": 2,
+      "xfIn": 3,
+      "tween": true,
+      "fps": 7.8,
+      "ink": 226,
+      "nan": 0,
+      "layers": 5,
+      "bodies": 2564,
+      "status": "scene 3 cued — ride the fader",
+      "verdict": "READY",
+      "errors": []
+    },
+    {
+      "phase": "mouse drag to end",
+      "decks": {
+        "cur": 2,
+        "next": -1
+      },
+      "fps": 5.3,
+      "ink": 253,
+      "nan": 0,
+      "layers": 3,
+      "bodies": 1492,
+      "status": "scene 3",
+      "verdict": "READY"
+    },
+    {
+      "phase": "mixer off with cue",
+      "decks": {
+        "cur": 2,
+        "next": -1
+      },
+      "xfIn": 0,
+      "fps": 3.8,
+      "ink": 249,
+      "nan": 0,
+      "layers": 3,
+      "bodies": 1492,
+      "status": "mixer off — a number changes the scene",
+      "verdict": "READY"
+    },
+    {
+      "phase": "all slots deleted",
+      "banks": 0,
+      "stored": 0,
+      "fps": 9.2,
+      "ink": 251,
+      "nan": 0,
+      "layers": 3,
+      "bodies": 1492,
+      "status": "",
+      "verdict": "READY",
+      "errors": []
+    }
+  ],
+  "errors": []
+}

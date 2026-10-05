@@ -1,0 +1,2 @@
+defaults {"afterSceneWithPost":{"chroma":0.5,"chromaAng":0,"hue":40},"afterSceneWithoutPost":{"chroma":0.5,"chromaAng":0,"hue":40}}
+speed0 {"speed":0,"newLayerLife":0}

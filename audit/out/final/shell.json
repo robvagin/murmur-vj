@@ -1,0 +1,441 @@
+{
+  "file": [
+    {
+      "ink": 219,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "file:// blocks live inputs: run ./serve.sh and open the localhost page",
+      "armNote": "file:// blocks live inputs: run ./serve.sh and open the localhost page",
+      "camNote": "file:// blocks live inputs: run ./serve.sh and open the localhost page",
+      "armDisabled": true,
+      "verdict": "BLOCKED · ASSETS MISSING",
+      "badge": "",
+      "errors": [
+        "Fetch API cannot load file:///tmp/claude-0/-home-user-repo/673fe202-82fb-5e53-8a16-428d04fea50b/scratchpad/final/assets/symbol.svg. URL scheme \"file\" is not supported."
+      ]
+    },
+    {
+      "afterArmClick": true,
+      "armed": true,
+      "status": "live · 44 kHz"
+    },
+    {
+      "symbolFormation": true,
+      "ink": 32,
+      "nan": 0,
+      "layers": 2,
+      "bodies": 940,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "live · 44 kHz",
+      "logoReady": false
+    }
+  ],
+  "keys": [
+    {
+      "phase": "tray keys x3",
+      "ink": 232,
+      "nan": 0,
+      "layers": 2,
+      "bodies": 1072,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "Snap",
+      "errors": []
+    },
+    {
+      "phase": "random mash x400",
+      "fps": 16.1,
+      "ink": 220,
+      "nan": 0,
+      "layers": 2,
+      "bodies": 1072,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "Crowd",
+      "pendingMoves": 0,
+      "jog": 1,
+      "errors": []
+    }
+  ],
+  "reducedMotion": [
+    {
+      "matches": true,
+      "canvasStillMoves": true,
+      "trayTransition": "opacity"
+    }
+  ],
+  "size": [
+    {
+      "w": 1920,
+      "h": 1080,
+      "dpr": 1,
+      "fpsNoUI": 13.4,
+      "ink": 194,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 1920,
+        "h": 1080,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "1920×1080",
+        "mpx": 2.07
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "w": 800,
+      "h": 600,
+      "dpr": 1,
+      "fpsNoUI": 48.2,
+      "ink": 214,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 800,
+        "h": 600,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "800×600",
+        "mpx": 0.48
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "w": 3840,
+      "h": 2160,
+      "dpr": 1,
+      "fpsNoUI": 5.2,
+      "ink": 212,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 3840,
+        "h": 2160,
+        "dpr": 1,
+        "renderScale": 0.64,
+        "buf": "2459×1383",
+        "mpx": 3.4
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "w": 1920,
+      "h": 1080,
+      "dpr": 2,
+      "fpsNoUI": 12.5,
+      "ink": 195,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 1920,
+        "h": 1080,
+        "dpr": 2,
+        "renderScale": 0.64,
+        "buf": "2459×1383",
+        "mpx": 3.4
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "dpr": 1,
+      "fpsNoUI": 25.1,
+      "ink": 212,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 1280,
+        "h": 720,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "1280×720",
+        "mpx": 0.92
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    }
+  ],
+  "resize": [
+    {
+      "w": 1920,
+      "h": 1080,
+      "ink": 6,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 1368,
+        "h": 1080,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "1368×1080",
+        "mpx": 1.48
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "w": 600,
+      "h": 400,
+      "ink": 76,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 48,
+        "h": 400,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "48×400",
+        "mpx": 0.02
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "w": 2560,
+      "h": 1440,
+      "ink": 191,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 2008,
+        "h": 1440,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "2008×1440",
+        "mpx": 2.89
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "ink": 161,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    }
+  ],
+  "frozen": [
+    {
+      "before": {
+        "phase": 0.09793333333389231,
+        "beatN": 5,
+        "bpm": 120
+      },
+      "after": {
+        "phase": 0.16253333333351883,
+        "beatN": 28,
+        "bpm": 120
+      },
+      "ink": 218,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 520,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "clock — internal BPM",
+      "fps": 14.3,
+      "errors": []
+    }
+  ],
+  "heavy": [
+    {
+      "layers": 1,
+      "count": 2000,
+      "fps": 6.3,
+      "ink": 255,
+      "nan": 0,
+      "bodies": 2000,
+      "frame": {
+        "w": 1920,
+        "h": 1080,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "1920×1080",
+        "mpx": 2.07
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "layers": 4,
+      "count": 2000,
+      "fps": 2.2,
+      "ink": 256,
+      "nan": 0,
+      "bodies": 8000,
+      "frame": {
+        "w": 1920,
+        "h": 1080,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "1920×1080",
+        "mpx": 2.07
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    },
+    {
+      "layers": 8,
+      "count": 2000,
+      "fps": 0.7,
+      "ink": 141,
+      "nan": 0,
+      "bodies": 16000,
+      "frame": {
+        "w": 1920,
+        "h": 1080,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "1920×1080",
+        "mpx": 2.07
+      },
+      "noui": true,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    }
+  ],
+  "extreme": [
+    {
+      "label": "mirrors",
+      "typed": 400,
+      "shownAfter": "16",
+      "state": {
+        "sectors": 16,
+        "copies": 0
+      },
+      "fps": 14.3
+    },
+    {
+      "label": "copies",
+      "typed": 400,
+      "shownAfter": "8",
+      "state": {
+        "sectors": 16,
+        "copies": 8
+      },
+      "fps": 12
+    },
+    {
+      "label": "copy scale",
+      "typed": 1,
+      "shownAfter": "1.000",
+      "state": {
+        "sectors": 16,
+        "copies": 8
+      },
+      "fps": 11.7
+    },
+    {
+      "label": "copy fade",
+      "typed": 1,
+      "shownAfter": "1.00",
+      "state": {
+        "sectors": 16,
+        "copies": 8
+      },
+      "fps": 11.1
+    },
+    {
+      "label": "density",
+      "typed": 30000,
+      "shownAfter": "30000",
+      "fps": 0.1,
+      "ink": 221,
+      "nan": 0,
+      "layers": 1,
+      "bodies": 30000,
+      "frame": {
+        "w": 728,
+        "h": 800,
+        "dpr": 1,
+        "renderScale": 1,
+        "buf": "728×800",
+        "mpx": 0.58
+      },
+      "noui": false,
+      "blackout": false,
+      "status": "clock — internal BPM"
+    }
+  ]
+}

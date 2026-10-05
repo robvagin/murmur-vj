@@ -8,11 +8,12 @@ import path from 'node:path';
 import vm from 'node:vm';
 import { REPO } from './lib.mjs';
 
+// CORE=<path> runs a variant of audio-core.js instead of the repo copy.
 export function loadCore() {
   const ctx = { console };
   ctx.globalThis = ctx;
   vm.createContext(ctx);
-  vm.runInContext(fs.readFileSync(path.join(REPO, 'audio-core.js'), 'utf8'), ctx);
+  vm.runInContext(fs.readFileSync(process.env.CORE || path.join(REPO, 'audio-core.js'), 'utf8'), ctx);
   return ctx;
 }
 

@@ -1,0 +1,5 @@
+baseline {"frames":10,"ms":935,"ink":226,"nan":0,"bodies":520}
+scrubs 72
+ISSUE {"label":"Pulse burst opacity","tag":"min","v":0,"frames":5,"ms":704,"ink":0,"nan":0,"bodies":520,"newErrors":[]}
+ISSUE {"label":"Pulse burst opacity","tag":"below","v":-10,"frames":12,"ms":706,"ink":0,"nan":0,"bodies":520,"newErrors":[]}
+done: scrubs 72 issues 2 errors 0

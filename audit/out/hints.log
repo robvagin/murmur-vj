@@ -1,0 +1,8 @@
+== main
+Space · view Tilt scrub : Base lean of every body, in degrees; on top of spin and heading
+Space · view Tilt label : Base lean of every body, in degrees; on top of spin and heading
+card body tilt scrub    : Base lean of every body, in degrees; on top of spin and heading
+== fixed
+Space · view Tilt scrub : Camera pitch; drag the stage to orbit
+Space · view Tilt label : Camera pitch; drag the stage to orbit
+card body tilt scrub    : Base lean of every body, in degrees; on top of spin and heading

@@ -1,0 +1,4 @@
+base                        {"attract":0.01,"collide":0.01,"persp":0.94,"chaos":0.1,"moving":false,"spread":3.096}
+magnet running (2.5 s)      {"attract":0.304,"collide":0.148,"persp":1.025,"chaos":0.1,"moving":true,"spread":2.728}
+gather replaced magnet, end {"attract":0.01,"collide":0.01,"persp":0.94,"chaos":0.1,"moving":false,"spread":3.379}
+snap replaced gather, end   {"attract":0.01,"collide":0.01,"persp":0.94,"chaos":0.1,"moving":false,"spread":3.373}

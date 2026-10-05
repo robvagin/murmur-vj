@@ -1,0 +1,35 @@
+word {"name":"empty","threw":null,"frames":12,"ink":208,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"spaces","threw":null,"frames":13,"ink":223,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"long500","threw":null,"frames":14,"ink":230,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"emoji","threw":null,"frames":12,"ink":235,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"cyrillic","threw":null,"frames":12,"ink":221,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"rtl","threw":null,"frames":12,"ink":229,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"rlo-override","threw":null,"frames":12,"ink":242,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"zero-width","threw":null,"frames":14,"ink":240,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+word {"name":"combining","threw":null,"frames":11,"ink":233,"tainted":false,"nan":0,"bodies":1072,"layers":2,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"xss_script.svg","threw":null,"frames":13,"ink":247,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"xss_onload.svg","threw":null,"frames":15,"ink":244,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"xss_foreign.svg","threw":null,"frames":12,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"xss_href.svg","threw":null,"frames":9,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"nosize.svg","threw":null,"frames":12,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"huge_dims.svg","threw":null,"frames":13,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"broken.png","threw":null,"frames":11,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"empty.png","threw":null,"frames":8,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"chroma-on-with-assets","threw":null,"frames":11,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+files {"name":"huge_12000.png","threw":null,"frames":26,"ink":-1,"tainted":"SecurityError","nan":0,"bodies":520,"layers":1,"status":"clock — internal BPM","xss":null,"errors":[]}
+import {"name":"scene_not_json.json","threw":null,"frames":16,"ink":205,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"bad scene file: Unexpected token 'h', \"hello, thi\"... is not valid JSON","xss":null,"errors":[]}
+import {"name":"scene_null.json","threw":null,"frames":15,"ink":215,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_array.json","threw":null,"frames":35,"ink":209,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_number.json","threw":null,"frames":36,"ink":217,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_foreign.json","threw":null,"frames":36,"ink":205,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_unknown_prog.json","threw":null,"frames":35,"ink":0,"tainted":false,"nan":0,"bodies":0,"layers":0,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_count_string.json","threw":null,"frames":38,"ink":175,"tainted":false,"nan":0,"bodies":220,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_damp_negative.json","threw":null,"frames":37,"ink":201,"tainted":false,"nan":0,"bodies":300,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"damp-reset-after-negative","threw":null,"frames":29,"ink":195,"tainted":false,"nan":0,"bodies":300,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"redeal-after-negative","threw":null,"frames":11,"ink":210,"tainted":false,"nan":0,"bodies":300,"layers":1,"status":"re-dealt · Pulse burst","xss":null,"errors":[]}
+import {"name":"scene_look_strings.json","threw":null,"frames":40,"ink":0,"tainted":false,"nan":0,"bodies":300,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_bad_stops.json","threw":null,"frames":42,"ink":217,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_v99.json","threw":null,"frames":9,"ink":212,"tainted":false,"nan":0,"bodies":300,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+import {"name":"scene_huge.json","threw":null,"frames":24,"ink":196,"tainted":false,"nan":0,"bodies":300,"layers":1,"status":"scene imported","xss":null,"errors":[]}
+storage {"name":"quota-full-then-save","threw":null,"frames":7,"ink":201,"tainted":false,"nan":0,"bodies":520,"layers":1,"status":"slot 1 held in memory — too big for storage, export it","xss":null,"errors":[]}
+storage {"name":"restore-old-format-session","threw":null,"frames":16,"ink":245,"tainted":false,"nan":0,"bodies":1040,"layers":2,"status":"last session restored","xss":null,"errors":[]}
