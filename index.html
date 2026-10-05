@@ -5736,7 +5736,7 @@ input.sw:checked{border:0;background:var(--ink)}
   }
   function servePending(f) {
     if (!PENDING.length) return;
-    const hit = QUANT === 'beat' ? f.beat.onBeat : QUANT === 'bar' ? f.beat.onBar : QUANT === 'phrase' ? f.beat.onPhrase : true;
+    const hit = !(f.beat.bpm > 0) || (QUANT === 'beat' ? f.beat.onBeat : QUANT === 'bar' ? f.beat.onBar : QUANT === 'phrase' ? f.beat.onPhrase : true);
     if (!hit) return;
     const q = PENDING.splice(0, PENDING.length);
     for (const p of q) p.fn();
