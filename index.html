@@ -5803,7 +5803,11 @@ input.sw:checked{border:0;background:var(--ink)}
       },
       done(ctx) {
         setDriven('cam.persp', ctx.persp);
-        for (const L of layers) L.phys.attract = 0;
+        for (const L of layers) {
+          const p0 = ctx.phys0 && ctx.phys0[L.id];
+          setLayerDriven(L, 'phys.attract', p0 ? p0.attract : 0);
+          if (p0) setLayerDriven(L, 'phys.collide', p0.collide);
+        }
       }
     },
     gather: {
@@ -5866,14 +5870,21 @@ input.sw:checked{border:0;background:var(--ink)}
         MOVE.done && MOVE.done(MOVE.ctx);
         MOVE = null;
       }
-      const scales = {};
-      for (const L of layers) scales[L.id] = L.look.scale ?? 1;
+      const scales = {}, phys0 = {};
+      for (const L of layers) {
+        scales[L.id] = L.look.scale ?? 1;
+        phys0[L.id] = {
+          attract: L.phys.attract,
+          collide: L.phys.collide
+        };
+      }
       const ctx = {
         persp: state.cam.persp,
         chaos: state.motion.chaos || 0,
         layer: state.cam2.layer,
         hasCam: !!(CAM && CAM.ready),
-        scales: scales
+        scales: scales,
+        phys0: phys0
       };
       startMove({
         ...m,
