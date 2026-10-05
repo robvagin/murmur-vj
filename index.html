@@ -5862,6 +5862,10 @@ input.sw:checked{border:0;background:var(--ink)}
     const m = MOVES[id];
     if (!m) return;
     fire(() => {
+      if (MOVE) {
+        MOVE.done && MOVE.done(MOVE.ctx);
+        MOVE = null;
+      }
       const scales = {};
       for (const L of layers) scales[L.id] = L.look.scale ?? 1;
       const ctx = {
