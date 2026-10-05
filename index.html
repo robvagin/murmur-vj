@@ -7096,7 +7096,7 @@ input.sw:checked{border:0;background:var(--ink)}
     if (!sc) return;
     if (sc.v !== SCENE_V) setStatus('scene v' + sc.v + ' loaded into v' + SCENE_V + ' — missing fields defaulted', 'ok');
     const def = DEFAULT_SCENE;
-    const m = (a, b) => Object.assign(a, b || {});
+    const m = (a, b) => Object.assign({ ...a }, b || {});
     state.shapes = m(def.shapes, sc.shapes);
     state.cam2 = m(def.cam2, sc.cam2);
     state.post = m(def.post, sc.post);
