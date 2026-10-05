@@ -6590,7 +6590,7 @@ input.sw:checked{border:0;background:var(--ink)}
       clockOn = true;
       curInput = 'clock';
       inSel.value = 'clock';
-      const msg = fileHint() || (err && err.name === 'NotAllowedError' ? 'mic is blocked for this address — allow it via the mic icon in the address bar' : err && (err.message || err.name) || 'input failed');
+      const msg = fileHint() || (err && err.name === 'NotAllowedError' ? want === 'tab' || want === 'sys' ? 'sharing was cancelled or refused — press ARM and pick a tab or screen with audio' : 'mic is blocked for this address — allow it via the mic icon in the address bar' : err && (err.message || err.name) || 'input failed');
       setAudioHealth('failed', msg, 'err');
       armNote.textContent = msg;
       armNote.style.display = '';
