@@ -3108,6 +3108,7 @@ input.sw:checked{border:0;background:var(--ink)}
       ...L.params
     };
     if (pr.manner != null) pr.manner = MANNER_LIST[clamp(Math.round(pr.manner), 0, MANNER_LIST.length - 1)];
+    if (pr.speed < 0) pr.speed = 0;
     return pr;
   };
   const mpTarget = () => ({
